@@ -115,19 +115,15 @@ projects[views][version] = 3.3
 
 ; Drupal Commerce and Commerce contribs ========================================
 
-projects[commerce][type] = module
 projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.2
 
-projects[commerce_shipping][type] = module
 projects[commerce_shipping][subdir] = contrib
 projects[commerce_shipping][version] = 2.0-beta1
 
-projects[commerce_stock][type] = module
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 2.x-dev
 
-projects[quickpay][type] = module
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.0-beta2
 
