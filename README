@@ -14,7 +14,7 @@ Installation
 
 To build a complete site, run:
 
-    drush make discimport_dk.build --prepare-install ~/workspace/discimport_dk_build
+    drush make distro.make --prepare-install ~/workspace/discimport_dk_build
 
 Then check permissions
     
