@@ -7,11 +7,11 @@ api = 2
 core = 7.x
 
 projects[drupal][type] = core
-projects[drupal][version] = "7"
+projects[drupal][version] = "7.12"
 
-; Add Commerce Kickstart to the full distribution build.
-projects[commerce_kickstart][type] = profile
-projects[commerce_kickstart][version] = 1.x-dev
-projects[commerce_kickstart][download][type] = git
-projects[commerce_kickstart][download][url] = http://git.drupal.org/project/commerce_kickstart.git
-projects[commerce_kickstart][download][branch] = 7.x-1.x
+; Add Discimport to the full distribution build.
+projects[discimport_dk][type] = profile
+projects[discimport_dk][version] = 1.x-dev
+projects[discimport_dk][download][type] = git
+projects[discimport_dk][download][url] = http://github.com/discimport/discimport-deploy.git
+projects[discimport_dk][download][branch] = 7.x-1.x
