@@ -17,6 +17,15 @@ projects[transliteration][version] = 3.0
 
 ; Development tools ===========================================================
 
+projects[ccl][subdir] = contrib
+projects[ccl][version] = 1.2
+
+projects[date][subdir] = contrib
+projects[date][version] = 2.2
+
+projects[ds][subdir] = contrib
+projects[ds][version] = 1.2
+
 projects[features][subdir] = contrib
 projects[features][version] = 1.0-beta6
 
@@ -41,8 +50,20 @@ projects[media][version] = 2.x-dev
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta2
 
+projects[menu_block][subdir] = contrib
+projects[menu_block][version] = 2.3
+
 projects[oembed][subdir] = contrib
 projects[oembed][version] = 0.1-beta2
+
+projects[panels][subdir] = contrib
+projects[panels][version] = 3.2
+
+projects[panels_everywhere][subdir] = contrib
+projects[panels_everywhere][version] = 1.0-alpha1
+
+projects[strongarm][subdir] = contrib
+projects[strongarm][version] = 2.0-beta5
 
 projects[token][subdir] = contrib
 projects[token][version] = 1.0-rc1
@@ -78,6 +99,11 @@ projects[mailchimp][version] = 2.4
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.1
+
+; Performance =================================================================
+
+projects[apc][subdir] = contrib
+projects[apc][version] = 1.0-beta3
 
 ; UX Enhancements =============================================================
 
@@ -118,11 +144,29 @@ projects[views][version] = 3.3
 projects[commerce][subdir] = contrib
 projects[commerce][version] = 1.2
 
+projects[commerce_autosku][subdir] = contrib
+projects[commerce_autosku][version] = 1.0
+
+projects[commerce_coupon][subdir] = contrib
+projects[commerce_coupon][version] = 1.0-beta4
+
+projects[commerce_extra_price_formatters][subdir] = contrib
+projects[commerce_extra_price_formatters][version] = 1.0
+
+projects[commerce_price_savings_formatter][subdir] = contrib
+projects[commerce_price_savings_formatter][version] = 1.1
+
+projects[commerce_product_attributes][subdir] = contrib
+projects[commerce_product_attributes][version] = 1.0-beta3
+
 projects[commerce_shipping][subdir] = contrib
 projects[commerce_shipping][version] = 2.0-beta1
 
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 2.x-dev
+
+projects[inline_entity_form][subdir] = contrib
+projects[inline_entity_form][version] = 1.0-beta1
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.0-beta2
