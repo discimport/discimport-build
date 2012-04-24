@@ -24,7 +24,7 @@ projects[date][subdir] = contrib
 projects[date][version] = 2.5
 
 projects[ds][subdir] = contrib
-projects[ds][version] = 1.2
+projects[ds][version] = 1.5
 
 projects[features][subdir] = contrib
 projects[features][version] = 1.0-rc2
