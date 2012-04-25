@@ -153,6 +153,9 @@ projects[commerce_coupon][version] = 1.0-beta4
 projects[commerce_extra_price_formatters][subdir] = contrib
 projects[commerce_extra_price_formatters][version] = 1.1
 
+projects[commerce_flat_rate][subdir] = contrib
+projects[commerce_flat_rate[version] = 1.0-beta1
+
 projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_savings_formatter][version] = 1.1
 
