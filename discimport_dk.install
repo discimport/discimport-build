@@ -308,3 +308,8 @@ function _commerce_kickstart_install() {
   // Apply the shortcut set to the first user.
   shortcut_set_assign_user($set, (object) array('uid' => 1));
 }
+
+function discimport_dk_update_7000() {
+  $modules = array('panelizer');
+  module_enable($modules);
+}

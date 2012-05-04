@@ -56,6 +56,9 @@ projects[menu_block][version] = 2.3
 projects[oembed][subdir] = contrib
 projects[oembed][version] = 0.1-beta2
 
+projects[panelizer][subdir] = contrib
+projects[panelizer][version] = 2.0
+
 projects[panels][subdir] = contrib
 projects[panels][version] = 3.2
 
@@ -77,7 +80,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.2 
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-alpha5
+projects[metatag][version] = 1.0-alpha6
 
 projects[schemaorg][subdir] = contrib
 projects[schemaorg][version] = 1.0-beta2
@@ -128,7 +131,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.0
 
 projects[entity][subdir] = contrib
-projects[entity][version] = 1.0-rc1
+projects[entity][version] = 1.0-rc2
 
 projects[rules][subdir] = contrib
 projects[rules][version] = 2.1
