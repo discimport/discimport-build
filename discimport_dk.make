@@ -33,7 +33,7 @@ projects[features_orphans][subdir] = contrib
 projects[features_orphans][version] = 1.1
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.0-unstable3
+projects[file_entity][version] = 2.0-unstable4
 
 projects[l10n_update][subdir] = contrib 
 projects[l10n_update][version] = 1.0-beta3
@@ -45,7 +45,7 @@ projects[logintoboggan][subdir] = contrib
 projects[logintoboggan][version] = 1.3
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.x-dev
+projects[media][version] = 2.0-unstable4
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta3
@@ -142,7 +142,7 @@ projects[views][version] = 3.3
 ; Drupal Commerce and Commerce contribs ========================================
 
 projects[commerce][subdir] = contrib
-projects[commerce][version] = 1.2
+projects[commerce][version] = 1.3
 
 projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.0
