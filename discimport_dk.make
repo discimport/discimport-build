@@ -157,7 +157,7 @@ projects[commerce_compass][subdir] = contrib
 projects[commerce_compass][version] = 1.0-alpha3
 
 projects[commerce_coupon][subdir] = contrib
-projects[commerce_coupon][version] = 1.0-beta4
+projects[commerce_coupon][version] = 1.0-beta5
 
 projects[commerce_extra_price_formatters][subdir] = contrib
 projects[commerce_extra_price_formatters][version] = 1.x-dev
