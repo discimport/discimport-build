@@ -116,6 +116,9 @@ projects[password_toggle][version] = 1.0
 projects[shortcutperrole][subdir] = contrib
 projects[shortcutperrole][version] = 1.0
 
+projects[skinr][subdir] = contrib
+projects[skinr][version] = 2.0-beta1
+
 projects[simplified_menu_admin][subdir] = contrib
 projects[simplified_menu_admin][version] = 1.0-beta2
 
@@ -136,6 +139,12 @@ projects[rules][version] = 2.1
 projects[views][subdir] = contrib
 projects[views][version] = 3.3
 
+projects[views_dataviz][subdir] = contrib
+projects[views_dataviz][version] = 1.0-alpha3
+
+projects[views_date_format_sql][subdir] = contrib
+projects[views_date_format_sql][version] = 3.1
+
 ; Drupal Commerce and Commerce contribs ========================================
 
 projects[commerce][subdir] = contrib
@@ -144,11 +153,14 @@ projects[commerce][version] = 1.3
 projects[commerce_autosku][subdir] = contrib
 projects[commerce_autosku][version] = 1.0
 
+projects[commerce_compass][subdir] = contrib
+projects[commerce_compass][version] = 1.0-alpha3
+
 projects[commerce_coupon][subdir] = contrib
 projects[commerce_coupon][version] = 1.0-beta4
 
 projects[commerce_extra_price_formatters][subdir] = contrib
-projects[commerce_extra_price_formatters][version] = 1.1
+projects[commerce_extra_price_formatters][version] = 1.x-dev
 
 projects[commerce_flat_rate][subdir] = contrib
 projects[commerce_flat_rate[version] = 1.0-beta1
