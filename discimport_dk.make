@@ -49,6 +49,9 @@ projects[commerce_checkout_progress][version] = 1.2
 projects[commerce_coupon][subdir] = contrib
 projects[commerce_coupon][version] = 1.0-beta5
 
+projects[commerce_coupon_pct][subdir] = contrib
+projects[commerce_coupon_pct][version] = 1.x-dev
+
 projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_savings_formatter][version] = 1.2
 
