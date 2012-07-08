@@ -43,8 +43,8 @@ projects[apc][version] = 1.0-beta4
 
 ; Drupal Commerce and Commerce contribs ========================================
 
-projects[commerce_checkout_progres][subdir] = contrib
-projects[commerce_checkout_progres][version] = 1.2
+projects[commerce_checkout_progress][subdir] = contrib
+projects[commerce_checkout_progress][version] = 1.2
 
 projects[commerce_coupon][subdir] = contrib
 projects[commerce_coupon][version] = 1.0-beta5
