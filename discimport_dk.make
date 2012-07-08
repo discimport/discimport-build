@@ -1,6 +1,11 @@
 api = 2
 core = 7.x
 
+; Added Commerce Kickstart profile 
+
+projects[commerce_kickstart][type] = profile
+projects[commerce_kickstart][version] = 7.x-2.0-alpha2
+
 ; External dependencies =======================================================
 
 projects[mailchimp][subdir] = contrib

@@ -3,6 +3,7 @@ description = Install discimport.dk.
 core = 7.x
 distribution_name = Drupal Commerce
 version = 7.x-0.1
+base = commerce_kickstart
 
 ; Install necessary core modules.
 dependencies[] = block
