@@ -14,6 +14,9 @@ projects[file_entity][version] = 2.0-unstable6
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.2
 
+projects[l10n_client][subdir] = contrib
+projects[l10n_client][version] = 1.1
+
 projects[l10n_update][subdir] = contrib
 projects[l10n_update][version] = 1.0-beta3
 
@@ -56,7 +59,7 @@ projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_savings_formatter][version] = 1.2
 
 projects[commerce_stock][subdir] = contrib
-projects[commerce_stock][version] = 2.0-alpha1
+projects[commerce_stock][version] = 1.0
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.1
