@@ -35,6 +35,9 @@ projects[metatag][version] = 1.0-alpha6
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta4
 
+projects[token_tweaks][subdir] = contrib
+projects[token_tweaks][version] = 1.x-dev
+
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.1
 
@@ -46,6 +49,9 @@ projects[apc][version] = 1.0-beta4
 
 ; Drupal Commerce and Commerce contribs ========================================
 
+projects[commerce_bank_transfer][subdir] = contrib
+projects[commerce_bank_transfer][version] = 1.0-alpha3
+
 projects[commerce_checkout_progress][subdir] = contrib
 projects[commerce_checkout_progress][version] = 1.2
 
@@ -54,6 +60,9 @@ projects[commerce_coupon][version] = 1.0-beta5
 
 projects[commerce_coupon_pct][subdir] = contrib
 projects[commerce_coupon_pct][version] = 1.x-dev
+
+projects[commerce_google_analytics][subdir] = contrib
+projects[commerce_google_analytics][version] = 1.0-rc2
 
 projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_savings_formatter][version] = 1.2
