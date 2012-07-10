@@ -9,8 +9,28 @@ Requirements
 * [drush](http://drupal.org/project/drush) 
 * [drush_make](http://drupal.org/project/drush_make)
 
+Build platform on Aegir
+-----------------------
+
+To build a platform, do:
+
+    cd /var/aegir/platforms
+    wget http://ftp.drupal.org/files/projects/commerce_kickstart-7.x-2.x-dev-core.tar.gz
+    tar xvfz commerce_kickstart-7.x-2.x-dev-core.tar.gz
+    cd commerce_kickstart-7.x-2.x-dev
+    
+Now you got a standard Commerce Kickstart platform. We need to add more stuff:
+    
+    cd profiles/commerce_kickstart/
+    wget https://raw.github.com/discimport/discimport-deploy/7.x-1.x/discimport_dk.make
+    drush make --no-core --contrib-destination=. discimport_dk.make
+    
+Now you are able to add the distro platform, which can be added in the Aegir interface.
+
 Installation
 ------------
+
+WARNING: Not working at the moment due to the architecture of Commerce Kickstart install profile.
 
 To build a complete site, run:
 
