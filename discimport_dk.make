@@ -38,6 +38,9 @@ projects[redirect][version] = 1.0-beta4
 projects[token_tweaks][subdir] = contrib
 projects[token_tweaks][version] = 1.x-dev
 
+projects[transliteration][subdir] = contrib
+projects[transliteration][version] = 3.1
+
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.1
 
