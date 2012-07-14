@@ -70,7 +70,7 @@ projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_savings_formatter][version] = 1.2
 
 projects[commerce_stock][subdir] = contrib
-projects[commerce_stock][version] = 1.0
+projects[commerce_stock][version] = 1.1
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.1
