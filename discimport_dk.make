@@ -44,12 +44,6 @@ projects[transliteration][version] = 3.1
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.1
 
-
-; Performance =================================================================
-
-projects[apc][subdir] = contrib
-projects[apc][version] = 1.0-beta4
-
 ; Drupal Commerce and Commerce contribs ========================================
 
 projects[commerce_bank_transfer][subdir] = contrib
