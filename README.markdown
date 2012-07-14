@@ -18,6 +18,7 @@ To build a platform, do:
     wget http://ftp.drupal.org/files/projects/commerce_kickstart-7.x-2.x-dev-core.tar.gz
     tar xvfz commerce_kickstart-7.x-2.x-dev-core.tar.gz
     cd commerce_kickstart-7.x-2.x-dev
+    chmod 777 sites -R
     
 Now you got a standard Commerce Kickstart platform. We need to add more stuff:
     
