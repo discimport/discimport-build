@@ -7,10 +7,10 @@ api = 2
 core = 7.x
 
 projects[drupal][type] = core
-projects[drupal][version] = "7.14"
+projects[drupal][version] = 7.14
 
-; Add Drupal Commerce Kickstart
-projects[commerce_kickstart][type] = profile
-projects[commerce_kickstart][download][type] = git
-projects[commerce_kickstart][download][url] = http://git.drupal.org/project/commerce_kickstart.git
-projects[commerce_kickstart][download][branch] = 7.x-2.x
+projects[discimport_dk][type] = profile
+projects[discimport_dk][download][type] = git
+projects[discimport_dk][download][url] = http://github.com/discimport/discimport-deploy.git
+projects[discimport_dk][download][branch] = 7.x-1.x
+
