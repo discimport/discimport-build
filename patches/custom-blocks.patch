@@ -1,0 +1,28 @@
+diff --git a/modules/commerce_kickstart/demo_content/commerce_kickstart_content/commerce_kickstart_content.module b/modules/commerce_kickstart/demo_content/commerce_kickstart_content/commerce_kickstart_content.module
+index 626075e..d731d86 100644
+--- a/modules/commerce_kickstart/demo_content/commerce_kickstart_content/commerce_kickstart_content.module
++++ b/modules/commerce_kickstart/demo_content/commerce_kickstart_content/commerce_kickstart_content.module
+@@ -47,11 +47,11 @@ function commerce_kickstart_content_block_view($delta = '') {
+ 
+   switch ($delta) {
+     case 'social':
+-      $block['subject'] = t('Connect with us');
++      $block['subject'] = t('Vores netværk');
+       $items = array(
+-        l(t('Like us on Facebook'), 'https://www.facebook.com/commerceguys', array('attributes' => array('id' => 'facebook'))),
+-        l(t('Follow Us on Twitter'), 'https://twitter.com/commerceguys', array('attributes' => array('id' => 'twitter'))),
+-        commerce_kickstart_content_build_element(t('What We Like on Pinterest'), 'pinterest'),
++        l(t('Synes om på Facebook'), 'https://www.facebook.com/discimport', array('attributes' => array('id' => 'facebook'))),
++        l(t('Følg os på Twitter'), 'https://twitter.com/discimport', array('attributes' => array('id' => 'twitter'))),
++        l(t('Nyhedsbrev'), '/nyhedsbrev', array('attributes' => array('id' => 'pinterest'))),
+       );
+       $block['content'] = theme('item_list', array('items' => $items, 'attributes' => array('id' => 'social')));;
+       break;
+@@ -59,7 +59,6 @@ function commerce_kickstart_content_block_view($delta = '') {
+     case 'payment':
+       $items = array(
+         commerce_kickstart_content_build_element(t('Visa premier'), 'payment_visa_premier'),
+-        commerce_kickstart_content_build_element(t('Paypal'), 'payment_paypal'),
+         commerce_kickstart_content_build_element(t('Mastercard'), 'payment_mastercard'),
+         commerce_kickstart_content_build_element(t('American express'), 'payment_american_express'),
+       );
