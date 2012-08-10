@@ -41,13 +41,13 @@ projects[token_tweaks][version] = 1.x-dev
 projects[transliteration][subdir] = contrib
 projects[transliteration][version] = 3.1
 
+projects[userreport][subdir] = contrib
+projects[userreport][version] = 1.0-alpha2
+
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.1
 
 ; Performance ==================================================================
-
-projects[boost][subdir] = contrib
-projects[boost][version] = 1.0-beta1
 
 ; Drupal Commerce and Commerce contribs ========================================
 
