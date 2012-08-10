@@ -49,6 +49,9 @@ projects[wysiwyg][version] = 2.1
 
 ; Performance ==================================================================
 
+projects[cdn][subdir] = contrib
+projects[cdn][version] = 2.5
+
 ; Drupal Commerce and Commerce contribs ========================================
 
 projects[commerce_bank_transfer][subdir] = contrib
@@ -74,6 +77,9 @@ projects[commerce_reports][version] = 3.0-alpha3
 
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.1
+
+projects[commerce_reports][subdir] = contrib
+projects[commerce_reports][version] = 3.0-alpha3
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.1
