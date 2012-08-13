@@ -69,6 +69,9 @@ projects[commerce_coupon_pct][version] = 1.x-dev
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.0-rc2
 
+projects[commerce_price_components][subdir] = contrib
+projects[commerce_price_components][version] = 1.x-dev
+
 projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_savings_formatter][version] = 1.2
 
