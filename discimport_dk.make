@@ -65,6 +65,7 @@ projects[commerce_coupon][version] = 1.0-beta5
 
 projects[commerce_coupon_pct][subdir] = contrib
 projects[commerce_coupon_pct][version] = 1.x-dev
+projects[commerce_coupon_pct][patch][1676272] = http://drupal.org/files/coupon_granted_amount-1676272-2.patch
 
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.0-rc2
