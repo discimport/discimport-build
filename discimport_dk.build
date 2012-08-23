@@ -6,11 +6,10 @@
 api = 2
 core = 7.x
 
-projects[drupal][type] = core
-projects[drupal][version] = 7.14
+includes[] = http://drupalcode.org/project/commerce_kickstart.git/blob_plain/refs/heads/7.x-2.x:/drupal-org-core.make
 
-projects[discimport_dk][type] = profile
-projects[discimport_dk][download][type] = git
-projects[discimport_dk][download][url] = http://github.com/discimport/discimport-deploy.git
-projects[discimport_dk][download][branch] = 7.x-1.x
+projects[commerce_kickstart][type] = profile
+projects[commerce_kickstart][version] = 2.x-dev
 
+includes[] = http://drupalcode.org/project/commerce_kickstart.git/blob_plain/refs/heads/7.x-2.x:/drupal-org.make
+includes[] = https://raw.github.com/discimport/discimport-deploy/7.x-1.x/discimport_dk.make
