@@ -4,7 +4,7 @@ core = 7.x
 ; Added Commerce Kickstart profile 
 
 ;projects[commerce_kickstart][type] = profile
-;projects[commerce_kickstart][version] = 2.0-beta1
+;projects[commerce_kickstart][version] = 2.0-beta2
 
 ; External dependencies =======================================================
 
@@ -77,16 +77,13 @@ projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_savings_formatter][version] = 1.2
 
 projects[commerce_reports][subdir] = contrib
-projects[commerce_reports][version] = 3.0-alpha3
+projects[commerce_reports][version] = 3.0-alpha4
 
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.1
 
-projects[commerce_reports][subdir] = contrib
-projects[commerce_reports][version] = 3.0-alpha3
-
 projects[quickpay][subdir] = contrib
-projects[quickpay][version] = 1.1
+projects[quickpay][version] = 1.2
 
 ; Libraries =====================================================
 
