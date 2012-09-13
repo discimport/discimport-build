@@ -72,6 +72,9 @@ projects[commerce_coupon][version] = 1.0-beta5
 projects[commerce_coupon_pct][subdir] = contrib
 projects[commerce_coupon_pct][version] = 1.x-dev
 
+projects[commerce_coupon_fixed_amount][subdir] = contrib
+projects[commerce_coupon_fixed_amount][version] = 1.x-dev
+
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.0-rc2
 
