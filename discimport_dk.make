@@ -8,6 +8,9 @@ core = 7.x
 
 ; External dependencies =======================================================
 
+projects[comment_notify][subdir] = contrib
+projects[comment_notify][version] = 1.1
+
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.0-unstable6
 
