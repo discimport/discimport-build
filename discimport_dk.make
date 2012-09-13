@@ -35,6 +35,9 @@ projects[media_youtube][version] = 1.0-beta3
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-alpha6
 
+projects[mollom][subdir] = contrib
+projects[mollom][version] = 2.2
+
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta4
 
