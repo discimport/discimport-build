@@ -4,7 +4,7 @@ core = 7.x
 ; Added Commerce Kickstart profile 
 
 ;projects[commerce_kickstart][type] = profile
-;projects[commerce_kickstart][version] = 2.0-rc1
+;projects[commerce_kickstart][version] = 2.0-rc2
 
 ; External dependencies =======================================================
 
@@ -33,10 +33,10 @@ projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta3
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-alpha6
+projects[metatag][version] = 1.0-beta1
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.2
+projects[mollom][version] = 2.3
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-beta4
@@ -51,7 +51,7 @@ projects[userreport][subdir] = contrib
 projects[userreport][version] = 1.0-alpha2
 
 projects[wysiwyg][subdir] = contrib
-projects[wysiwyg][version] = 2.1
+projects[wysiwyg][version] = 2.2
 
 ; Performance ==================================================================
 
@@ -85,16 +85,16 @@ projects[commerce_price_components][subdir] = contrib
 projects[commerce_price_components][version] = 1.x-dev
 
 projects[commerce_price_savings_formatter][subdir] = contrib
-projects[commerce_price_savings_formatter][version] = 1.2
+projects[commerce_price_savings_formatter][version] = 1.3
 
 projects[commerce_reports][subdir] = contrib
-projects[commerce_reports][version] = 3.0-alpha4
+projects[commerce_reports][version] = 3.0-beta1
 
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.1
 
 projects[quickpay][subdir] = contrib
-projects[quickpay][version] = 1.2
+projects[quickpay][version] = 1.4
 
 ; Libraries =====================================================
 
