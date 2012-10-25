@@ -102,6 +102,9 @@ projects[commerce_stock][version] = 1.1
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.4
 
+projects[visualization][subdir] = contrib
+projects[visualization][version] = 1.0-alpha1
+
 ; Custom =======================================================
 
 projects[discimport_commerce_invoice][type] = "module"
