@@ -63,8 +63,11 @@ projects[cdn][version] = 2.5
 projects[commerce_bank_transfer][subdir] = contrib
 projects[commerce_bank_transfer][version] = 1.0-alpha3
 
-projects[commerce_checkout_progress][subdir] = contrib
-projects[commerce_checkout_progress][version] = 1.2
+projects[commerce_abandoned_cart_notification][type] = "module"
+projects[commerce_abandoned_cart_notification][subdir] = "vih"
+projects[commerce_abandoned_cart_notification][download][type] = "git"
+projects[commerce_abandoned_cart_notification][download][url] = "http://git.drupal.org/sandbox/GuGuss/1424572.git commerce_abandoned_cart_notification"
+projects[commerce_abandoned_cart_notification][download][branch] = "7.x-1.x"
 
 projects[commerce_coupon][subdir] = contrib
 projects[commerce_coupon][version] = 1.0-beta6
