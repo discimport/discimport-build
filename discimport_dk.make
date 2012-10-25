@@ -63,7 +63,7 @@ projects[cdn][version] = 2.5
 projects[commerce_abandoned_cart_notification][type] = "module"
 projects[commerce_abandoned_cart_notification][subdir] = "contrib"
 projects[commerce_abandoned_cart_notification][download][type] = "git"
-projects[commerce_abandoned_cart_notification][download][url] = "http://git.drupal.org/sandbox/GuGuss/1424572.git commerce_abandoned_cart_notification"
+projects[commerce_abandoned_cart_notification][download][url] = "http://git.drupal.org/sandbox/GuGuss/1424572.git"
 projects[commerce_abandoned_cart_notification][download][branch] = "7.x-1.x"
 
 projects[commerce_bank_transfer][subdir] = contrib
