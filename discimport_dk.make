@@ -61,7 +61,7 @@ projects[cdn][version] = 2.5
 ; Drupal Commerce and Commerce contribs ========================================
 
 projects[commerce_abandoned_cart_notification][type] = "module"
-projects[commerce_abandoned_cart_notification][subdir] = "vih"
+projects[commerce_abandoned_cart_notification][subdir] = "contrib"
 projects[commerce_abandoned_cart_notification][download][type] = "git"
 projects[commerce_abandoned_cart_notification][download][url] = "http://git.drupal.org/sandbox/GuGuss/1424572.git commerce_abandoned_cart_notification"
 projects[commerce_abandoned_cart_notification][download][branch] = "7.x-1.x"
@@ -101,6 +101,14 @@ projects[commerce_stock][version] = 1.1
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.4
+
+; Custom =======================================================
+
+projects[discimport_commerce_invoice][type] = "module"
+projects[discimport_commerce_invoice][subdir] = "discimport"
+projects[discimport_commerce_invoice][download][type] = "git"
+projects[discimport_commerce_invoice][download][url] = "git://github.com/discimport/discimport_commerce_invoice.git"
+projects[discimport_commerce_invoice][download][branch] = "7.x-1.x"
 
 ; Libraries =====================================================
 
