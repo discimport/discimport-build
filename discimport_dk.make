@@ -4,7 +4,7 @@ core = 7.x
 ; Added Commerce Kickstart profile 
 
 ;projects[commerce_kickstart][type] = profile
-;projects[commerce_kickstart][version] = 2.0-rc2
+;projects[commerce_kickstart][version] = 2.0-rc3
 
 ; External dependencies =======================================================
 
@@ -15,7 +15,7 @@ projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.0-unstable6
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.2
+projects[google_analytics][version] = 1.3
 
 projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.1
@@ -24,7 +24,7 @@ projects[l10n_update][subdir] = contrib
 projects[l10n_update][version] = 1.0-beta3
 
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.5
+projects[mailchimp][version] = 2.7
 
 projects[media][subdir] = contrib
 projects[media][version] = 2.0-unstable6
@@ -33,13 +33,14 @@ projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta3
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-beta1
+projects[metatag][version] = 1.0-beta2
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.3
 
 projects[redirect][subdir] = contrib
-projects[redirect][version] = 1.0-beta4
+projects[redirect][version] = 1.x-dev
+projects[redirect][patch][1796596] = http://drupal.org/files/redirect-circular-1796596-8.patch
 
 projects[token_tweaks][subdir] = contrib
 projects[token_tweaks][version] = 1.x-dev
