@@ -8,6 +8,9 @@ core = 7.x
 
 ; External dependencies =======================================================
 
+projects[chart][subdir] = contrib
+projects[chart][version] = 1.x-dev
+
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.1
 
