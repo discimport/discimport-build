@@ -14,7 +14,8 @@ Build platform on Aegir
 
 To build a platform, do:
 
-    cd /var/aegir/platforms
+    su o1
+    cd /data/disk/o1
     wget http://ftp.drupal.org/files/projects/commerce_kickstart-7.x-2.x-dev-core.tar.gz
     tar xvfz commerce_kickstart-7.x-2.x-dev-core.tar.gz
     cd commerce_kickstart-7.x-2.x-dev
@@ -22,8 +23,8 @@ To build a platform, do:
     
 Now you got a standard Commerce Kickstart platform. We need to add more stuff:
     
-    cd profiles/commerce_kickstart/
-    wget https://raw.github.com/discimport/discimport-deploy/7.x-1.x/discimport_dk.make
+    cd sites/all
+    wget -N https://raw.github.com/discimport/discimport-deploy/7.x-1.x/discimport_dk.make
     drush make --no-core --contrib-destination=. discimport_dk.make
     
 Now you are able to add the distro platform, which can be added in the Aegir interface.
