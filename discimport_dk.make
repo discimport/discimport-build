@@ -132,6 +132,11 @@ projects[commerce_invoice_print][download][type] = "git"
 projects[commerce_invoice_print][download][url] = "git://github.com/discimport/commerce_invoice_print.git"
 projects[commerce_invoice_print][download][branch] = "7.x-1.x"
 
+projects[frisbee][type] = "theme"
+projects[frisbee][download][type] = "git"
+projects[frisbee][download][url] = "git://github.com/discimport/frisbee-theme.git"
+projects[frisbee][download][branch] = "7.x-2.x"
+
 ; Libraries =====================================================
 
 libraries[ckeditor][download][type] = "get"
