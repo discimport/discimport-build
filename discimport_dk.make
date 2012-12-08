@@ -14,6 +14,9 @@ projects[chart][version] = 1.x-dev
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.1
 
+projects[emogrifier][subdir] = contrib
+projects[emogrifier][version] = 1.18
+
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.0-unstable6
 
@@ -122,6 +125,12 @@ projects[discimport_commerce_invoice][subdir] = "discimport"
 projects[discimport_commerce_invoice][download][type] = "git"
 projects[discimport_commerce_invoice][download][url] = "git://github.com/discimport/discimport_commerce_invoice.git"
 projects[discimport_commerce_invoice][download][branch] = "7.x-1.x"
+
+projects[commerce_invoice_print][type] = "module"
+projects[commerce_invoice_print][subdir] = "discimport"
+projects[commerce_invoice_print][download][type] = "git"
+projects[commerce_invoice_print][download][url] = "git://github.com/discimport/commerce_invoice_print.git"
+projects[commerce_invoice_print][download][branch] = "7.x-1.x"
 
 ; Libraries =====================================================
 
