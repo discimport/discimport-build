@@ -4,7 +4,7 @@ core = 7.x
 ; Added Commerce Kickstart profile 
 
 ;projects[commerce_kickstart][type] = profile
-;projects[commerce_kickstart][version] = 2.0-rc3
+;projects[commerce_kickstart][version] = 2.0-rc4
 
 ; External dependencies =======================================================
 
