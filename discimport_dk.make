@@ -81,6 +81,7 @@ projects[commerce_abandoned_cart_notification][download][branch] = "7.x-1.x"
 
 projects[commerce_bank_transfer][subdir] = contrib
 projects[commerce_bank_transfer][version] = 1.0-alpha3
+projects[commerce_bank_transfer][patch][1788790] = http://drupal.org/files/issue-1788790.patch
 
 projects[commerce_cart_expiration][subdir] = contrib
 projects[commerce_cart_expiration][version] = 1.0
