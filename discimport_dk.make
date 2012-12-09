@@ -133,6 +133,12 @@ projects[commerce_invoice_print][download][type] = "git"
 projects[commerce_invoice_print][download][url] = "git://github.com/discimport/commerce_invoice_print.git"
 projects[commerce_invoice_print][download][branch] = "7.x-1.x"
 
+projects[commerce_payment_ean][type] = "module"
+projects[commerce_payment_ean][subdir] = "discimport"
+projects[commerce_payment_ean][download][type] = "git"
+projects[commerce_payment_ean][download][url] = "git://github.com/discimport/commerce_payment_ean.git"
+projects[commerce_payment_ean][download][branch] = "7.x-1.x"
+
 projects[frisbee][type] = "theme"
 projects[frisbee][download][type] = "git"
 projects[frisbee][download][url] = "git://github.com/discimport/frisbee-theme.git"
