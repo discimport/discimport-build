@@ -17,6 +17,9 @@ projects[comment_notify][version] = 1.1
 projects[emogrifier][subdir] = contrib
 projects[emogrifier][version] = 1.18
 
+projects[field_group][subdir] = contrib
+projects[field_group][version] = 1.1
+
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.0-unstable6
 
@@ -94,6 +97,9 @@ projects[commerce_coupon_pct][version] = 1.x-dev
 
 projects[commerce_coupon_fixed_amount][subdir] = contrib
 projects[commerce_coupon_fixed_amount][version] = 1.x-dev
+
+projects[commerce_fieldgroup_panes][subdir] = contrib
+projects[commerce_fieldgroup_panes][version] = 1.0
 
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.0-rc2
