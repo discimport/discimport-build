@@ -157,3 +157,8 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
+libraries[emogrifier][download][type] = "get"
+libraries[emogrifier][download][url] = "http://www.pelagodesign.com/emogrifier/emogrifier.zip"
+libraries[emogrifier][directory_name] = "emogrifier"
+libraries[emogrifier][destination] = "libraries"
+
