@@ -21,7 +21,7 @@ projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.1
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.0-unstable6
+projects[file_entity][version] = 2.0-unstable7
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.3
@@ -39,13 +39,13 @@ projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.7
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.0-unstable6
+projects[media][version] = 2.0-unstable7
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta3
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-beta2
+projects[metatag][version] = 1.0-beta4
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.3
