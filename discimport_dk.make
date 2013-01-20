@@ -36,7 +36,7 @@ projects[l10n_update][subdir] = contrib
 projects[l10n_update][version] = 1.0-beta3
 
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.7
+projects[mailchimp][version] = 2.9
 
 projects[media][subdir] = contrib
 projects[media][version] = 2.0-unstable7
@@ -102,7 +102,7 @@ projects[commerce_fieldgroup_panes][subdir] = contrib
 projects[commerce_fieldgroup_panes][version] = 1.0
 
 projects[commerce_google_analytics][subdir] = contrib
-projects[commerce_google_analytics][version] = 1.0-rc2
+projects[commerce_google_analytics][version] = 1.0-rc3
 
 projects[commerce_invoice][subdir] = contrib
 projects[commerce_invoice][version] = 1.x-dev
