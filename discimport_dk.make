@@ -162,3 +162,7 @@ libraries[emogrifier][download][url] = "http://www.pelagodesign.com/emogrifier/e
 libraries[emogrifier][directory_name] = "emogrifier"
 libraries[emogrifier][destination] = "libraries"
 
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
+libraries[mailchimp][directory_name] = "mailchimp"
+libraries[mailchimp][destination] = "libraries"
