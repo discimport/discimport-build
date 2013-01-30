@@ -8,6 +8,9 @@ core = 7.x
 
 ; External dependencies =======================================================
 
+projects[addressfield_tokens][subdir] = contrib
+projects[addressfield_tokens][version] = 1.3
+
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
@@ -106,6 +109,9 @@ projects[commerce_google_analytics][version] = 1.0-rc3
 
 projects[commerce_invoice][subdir] = contrib
 projects[commerce_invoice][version] = 1.x-dev
+
+projects[commerce_mailchimp][subdir] = contrib
+projects[commerce_mailchimp][version] = 1.x-dev
 
 projects[commerce_price_components][subdir] = contrib
 projects[commerce_price_components][version] = 1.x-dev
