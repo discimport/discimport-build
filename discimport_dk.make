@@ -33,13 +33,13 @@ projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 3.x-dev
 
 projects[l10n_client][subdir] = contrib
-projects[l10n_client][version] = 1.1
+projects[l10n_client][version] = 1.2
 
 projects[l10n_update][subdir] = contrib
 projects[l10n_update][version] = 1.0-beta3
 
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.9
+projects[mailchimp][version] = 2.10
 
 projects[media][subdir] = contrib
 projects[media][version] = 2.0-unstable7
@@ -51,7 +51,7 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta4
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.3
+projects[mollom][version] = 2.4
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.x-dev
@@ -75,7 +75,7 @@ projects[wysiwyg][version] = 2.2
 ; Performance ==================================================================
 
 projects[cdn][subdir] = contrib
-projects[cdn][version] = 2.5
+projects[cdn][version] = 2.6
 
 ; Drupal Commerce and Commerce contribs ========================================
 
@@ -93,19 +93,19 @@ projects[commerce_cart_expiration][subdir] = contrib
 projects[commerce_cart_expiration][version] = 1.0
 
 projects[commerce_coupon][subdir] = contrib
-projects[commerce_coupon][version] = 1.0-beta6
+projects[commerce_coupon][version] = 1.0-beta7
 
 projects[commerce_coupon_pct][subdir] = contrib
-projects[commerce_coupon_pct][version] = 1.x-dev
+projects[commerce_coupon_pct][version] = 1.0-beta7
 
 projects[commerce_coupon_fixed_amount][subdir] = contrib
-projects[commerce_coupon_fixed_amount][version] = 1.x-dev
+projects[commerce_coupon_fixed_amount][version] = 1.0-beta7
 
 projects[commerce_fieldgroup_panes][subdir] = contrib
 projects[commerce_fieldgroup_panes][version] = 1.0
 
 projects[commerce_google_analytics][subdir] = contrib
-projects[commerce_google_analytics][version] = 1.0-rc3
+projects[commerce_google_analytics][version] = 1.0
 
 projects[commerce_invoice][subdir] = contrib
 projects[commerce_invoice][version] = 1.x-dev
