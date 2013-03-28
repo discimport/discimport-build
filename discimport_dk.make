@@ -15,7 +15,7 @@ projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
 
 projects[comment_notify][subdir] = contrib
-projects[comment_notify][version] = 1.1
+projects[comment_notify][version] = 1.2
 
 projects[emogrifier][subdir] = contrib
 projects[emogrifier][version] = 1.18
@@ -48,7 +48,7 @@ projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta3
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-beta4
+projects[metatag][version] = 1.0-beta5
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.4
