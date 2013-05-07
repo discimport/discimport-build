@@ -9,8 +9,8 @@ Requirements
 * [drush](http://drupal.org/project/drush) 
 * [drush_make](http://drupal.org/project/drush_make)
 
-Build platform on Aegir
------------------------
+Manually build platform on Aegir
+--------------------------------
 
 To build a platform, do:
 
@@ -32,11 +32,9 @@ Now you are able to add the distro platform, which can be added in the Aegir int
 Installation
 ------------
 
-WARNING: Not working at the moment due to the architecture of Commerce Kickstart install profile.
+To make the Commerce Kickstart Platform ready with the extra Discimport.dk modules, run:
 
-To build a complete site, run:
-
-    drush make distro.make --prepare-install ~/workspace/discimport_dk_build
+    drush make discimport_dk.build --prepare-install ~/workspace/discimport_dk_build
 
 Then check permissions
     
@@ -45,17 +43,3 @@ Then check permissions
     chmod 777 sites/default/files
 
 Navigate to the root directory in a webbrowser.
-
-#### Update existing install profile ####
-
-If you want to update just the install profile instead of rebuilding the
-entire site, you can run this:
-
-    drush make --no-core --contrib-destination=. discimport_dk.make
-
-#### Rebuild everything ####
-
-If you want to force a rebuild of everything, you can run this:
-
-    drush si discimport_dk
-

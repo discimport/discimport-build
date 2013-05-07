@@ -1,15 +1,9 @@
-; Use this file to build a full distribution including Drupal core and the
-; Commerce Kickstart install profile using the following command:
-;
-; drush make distro.make <target directory>
+; drush make discimport_dk.build <target directory>
 
 api = 2
 core = 7.x
 
-includes[] = http://drupalcode.org/project/commerce_kickstart.git/blob_plain/refs/heads/7.x-2.x:/drupal-org-core.make
+projects[drupal][download][type] = "get"
+projects[drupal][download][url] = "http://ftp.drupal.org/files/projects/commerce_kickstart-7.x-2.6-core.tar.gz"
 
-projects[commerce_kickstart][type] = profile
-projects[commerce_kickstart][version] = 2.0-beta2
-
-includes[] = http://drupalcode.org/project/commerce_kickstart.git/blob_plain/refs/heads/7.x-2.x:/drupal-org.make
 includes[] = https://raw.github.com/discimport/discimport-deploy/7.x-1.x/discimport_dk.make
