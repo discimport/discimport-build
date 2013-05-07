@@ -60,6 +60,9 @@ projects[redirect][patch][1796596] = http://drupal.org/files/redirect-circular-1
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.1
 
+projects[site_verify][subdir] = contrib
+projects[site_verify][version] = 1.0
+
 projects[token_tweaks][subdir] = contrib
 projects[token_tweaks][version] = 1.x-dev
 
