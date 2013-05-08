@@ -1,11 +1,6 @@
 api = 2
 core = 7.x
 
-; Added Commerce Kickstart profile 
-
-;projects[commerce_kickstart][type] = profile
-;projects[commerce_kickstart][version] = 2.6
-
 ; External dependencies =======================================================
 
 projects[addressfield_tokens][subdir] = contrib
