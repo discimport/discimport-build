@@ -77,6 +77,9 @@ projects[cdn][version] = 2.6
 
 ; Drupal Commerce and Commerce contribs ========================================
 
+projects[billysbilling][subdir] = contrib
+projects[billysbilling][version] = 1.0-alpha1
+
 projects[commerce_abandoned_cart_notification][type] = "module"
 projects[commerce_abandoned_cart_notification][subdir] = "contrib"
 projects[commerce_abandoned_cart_notification][download][type] = "git"
@@ -105,9 +108,6 @@ projects[commerce_fieldgroup_panes][version] = 1.0
 projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
 
-projects[commerce_invoice][subdir] = contrib
-projects[commerce_invoice][version] = 1.x-dev
-
 projects[commerce_mailchimp][subdir] = contrib
 projects[commerce_mailchimp][version] = 1.x-dev
 
@@ -129,19 +129,7 @@ projects[quickpay][version] = 1.5
 projects[visualization][subdir] = contrib
 projects[visualization][version] = 1.0-alpha1
 
-; Custom =======================================================
-
-projects[discimport_commerce_invoice][type] = "module"
-projects[discimport_commerce_invoice][subdir] = "discimport"
-projects[discimport_commerce_invoice][download][type] = "git"
-projects[discimport_commerce_invoice][download][url] = "git://github.com/discimport/discimport_commerce_invoice.git"
-projects[discimport_commerce_invoice][download][branch] = "7.x-1.x"
-
-projects[commerce_invoice_print][type] = "module"
-projects[commerce_invoice_print][subdir] = "discimport"
-projects[commerce_invoice_print][download][type] = "git"
-projects[commerce_invoice_print][download][url] = "git://github.com/discimport/commerce_invoice_print.git"
-projects[commerce_invoice_print][download][branch] = "7.x-1.x"
+; Custom ========================================================
 
 projects[commerce_payment_ean][type] = "module"
 projects[commerce_payment_ean][subdir] = "discimport"
@@ -149,12 +137,19 @@ projects[commerce_payment_ean][download][type] = "git"
 projects[commerce_payment_ean][download][url] = "git://github.com/discimport/commerce_payment_ean.git"
 projects[commerce_payment_ean][download][branch] = "7.x-1.x"
 
+; Theme =========================================================
+
 projects[frisbee][type] = "theme"
 projects[frisbee][download][type] = "git"
 projects[frisbee][download][url] = "git://github.com/discimport/frisbee-theme.git"
 projects[frisbee][download][branch] = "7.x-2.x"
 
 ; Libraries =====================================================
+
+libraries[billysbilling][download][type] = "get"
+libraries[billysbilling][download][url] = "https://github.com/billysbilling/billysbilling-php/archive/master.zip"
+libraries[billysbilling][directory_name] = "billysbilling-php"
+libraries[billysbilling][destination] = "libraries"
 
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
