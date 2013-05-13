@@ -111,6 +111,9 @@ projects[commerce_google_analytics][version] = 1.1
 projects[commerce_mailchimp][subdir] = contrib
 projects[commerce_mailchimp][version] = 1.x-dev
 
+projects[commerce_payment_ean][subdir] = "discimport"
+projects[commerce_payment_ean][version] = "1.x-dev"
+
 projects[commerce_price_components][subdir] = contrib
 projects[commerce_price_components][version] = 1.x-dev
 
@@ -128,14 +131,6 @@ projects[quickpay][version] = 1.5
 
 projects[visualization][subdir] = contrib
 projects[visualization][version] = 1.0-alpha1
-
-; Custom ========================================================
-
-projects[commerce_payment_ean][type] = "module"
-projects[commerce_payment_ean][subdir] = "discimport"
-projects[commerce_payment_ean][download][type] = "git"
-projects[commerce_payment_ean][download][url] = "git://github.com/discimport/commerce_payment_ean.git"
-projects[commerce_payment_ean][download][branch] = "7.x-1.x"
 
 ; Theme =========================================================
 
