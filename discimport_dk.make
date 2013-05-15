@@ -78,7 +78,7 @@ projects[cdn][version] = 2.6
 ; Drupal Commerce and Commerce contribs ========================================
 
 projects[billysbilling][subdir] = contrib
-projects[billysbilling][version] = 1.0-alpha1
+projects[billysbilling][version] = 1.0-alpha2
 
 projects[commerce_abandoned_cart_notification][type] = "module"
 projects[commerce_abandoned_cart_notification][subdir] = "contrib"
@@ -112,7 +112,7 @@ projects[commerce_mailchimp][subdir] = contrib
 projects[commerce_mailchimp][version] = 1.x-dev
 
 projects[commerce_payment_ean][subdir] = "discimport"
-projects[commerce_payment_ean][version] = "1.x-dev"
+projects[commerce_payment_ean][version] = "1.0-alpha1"
 
 projects[commerce_price_components][subdir] = contrib
 projects[commerce_price_components][version] = 1.x-dev
