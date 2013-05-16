@@ -132,6 +132,9 @@ projects[quickpay][version] = 1.5
 projects[visualization][subdir] = contrib
 projects[visualization][version] = 1.0-alpha1
 
+projects[recommenderghost][subdir] = contrib
+projects[recommenderghost][version] = 1.7
+
 ; Theme =========================================================
 
 projects[frisbee][type] = "theme"
