@@ -124,7 +124,7 @@ projects[commerce_reports][subdir] = contrib
 projects[commerce_reports][version] = 3.x-dev
 
 projects[commerce_stock][subdir] = contrib
-projects[commerce_stock][version] = 1.1
+projects[commerce_stock][version] = 1.2
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.5
