@@ -1,0 +1,25 @@
+language: php
+
+php:
+  - 5.3
+
+mysql:
+  database: drupal
+  username: root
+  encoding: utf8
+  
+before_script:
+  - "mysql -e 'create database drupal;'"
+  - pear channel-discover pear.drush.org
+  - pear install drush/drush
+  - phpenv rehash
+  - drush make discimport.build ../discimport.dk
+  - cd ../discimport.dk
+  - sudo chmod -R 777 sites/all/modules
+  - drush si commerce_kickstart --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=DISCIMPORT@2012 --site-mail=admin@example.com --site-name="discimport.dk" --yes
+  - drush cc all --yes
+  - cd ../discimport-deploy
+
+script: 
+  - test -d ../discimport.dk/profiles/commerce_kickstart
+  - test -d ../discimport.dk/sites/all/modules/contrib
