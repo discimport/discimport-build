@@ -127,7 +127,7 @@ projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.2
 
 projects[quickpay][subdir] = contrib
-projects[quickpay][version] = 1.6
+projects[quickpay][version] = 1.7
 
 projects[visualization][subdir] = contrib
 projects[visualization][version] = 1.0-alpha1
