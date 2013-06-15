@@ -65,7 +65,7 @@ projects[transliteration][subdir] = contrib
 projects[transliteration][version] = 3.1
 
 projects[userreport][subdir] = contrib
-projects[userreport][version] = 1.0-alpha3
+projects[userreport][version] = 1.0-alpha4
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.x-dev
