@@ -68,7 +68,7 @@ projects[userreport][subdir] = contrib
 projects[userreport][version] = 1.0-alpha3
 
 projects[wysiwyg][subdir] = contrib
-projects[wysiwyg][version] = 2.2
+projects[wysiwyg][version] = 2.x-dev
 
 ; Performance ==================================================================
 
@@ -150,7 +150,7 @@ libraries[billysbilling][directory_name] = "billysbilling-php"
 libraries[billysbilling][destination] = "libraries"
 
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.1.2/ckeditor_4.1.2_standard.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
