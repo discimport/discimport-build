@@ -46,7 +46,7 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta7
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.6
+projects[mollom][version] = 2.7
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.x-dev
@@ -118,7 +118,7 @@ projects[commerce_price_components][subdir] = contrib
 projects[commerce_price_components][version] = 1.x-dev
 
 projects[commerce_price_savings_formatter][subdir] = contrib
-projects[commerce_price_savings_formatter][version] = 1.3
+projects[commerce_price_savings_formatter][version] = 1.4
 
 projects[commerce_reports][subdir] = contrib
 projects[commerce_reports][version] = 3.x-dev
