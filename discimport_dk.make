@@ -35,7 +35,7 @@ projects[l10n_update][subdir] = contrib
 projects[l10n_update][version] = 1.0-beta3
 
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.10
+projects[mailchimp][version] = 2.11
 
 projects[media][subdir] = contrib
 projects[media][version] = 2.0-unstable7
@@ -52,6 +52,9 @@ projects[mollom][version] = 2.7
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.x-dev
 projects[redirect][patch][1796596] = http://drupal.org/files/redirect-circular-1796596-8.patch
+
+projects[robotstxt][subdir] = contrib
+projects[robotstxt][version] = 1.x-dev
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.1
