@@ -38,7 +38,7 @@ projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.12
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.0-alpha3
+projects[media][version] = 2.x-dev
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta3
