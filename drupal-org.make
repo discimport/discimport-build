@@ -143,8 +143,8 @@ projects[commerce_stock][version] = 1.2
 projects[commerce_yotpo][subdir] = contrib
 projects[commerce_yotpo][version] = 1.x-dev
 
-projects[commerce_nosto][subdir] = contrib
-projects[commerce_nosto][version] = 1.x-dev
+projects[commerce_nosto_tagging][subdir] = contrib
+projects[commerce_nosto_tagging][version] = 1.x-dev
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.8
