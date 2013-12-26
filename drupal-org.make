@@ -37,6 +37,11 @@ projects[l10n_update][version] = 1.0-beta3
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.12
 
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "https://github.com/lsolesen/mailchimp-api-class/archive/v.1.3.2.zip"
+libraries[mailchimp][directory_name] = "mailchimp"
+libraries[mailchimp][destination] = "libraries"
+
 projects[media][subdir] = contrib
 projects[media][version] = 2.x-dev
 
@@ -178,8 +183,3 @@ libraries[emogrifier][download][type] = "get"
 libraries[emogrifier][download][url] = "http://www.pelagodesign.com/emogrifier/emogrifier.zip"
 libraries[emogrifier][directory_name] = "emogrifier"
 libraries[emogrifier][destination] = "libraries"
-
-libraries[mailchimp][download][type] = "get"
-libraries[mailchimp][download][url] = "http://apidocs.mailchimp.com/api/downloads/mailchimp-api-class.zip"
-libraries[mailchimp][directory_name] = "mailchimp"
-libraries[mailchimp][destination] = "libraries"
