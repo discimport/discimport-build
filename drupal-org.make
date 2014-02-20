@@ -8,6 +8,9 @@ projects[addressfield_tokens][version] = 1.3
 
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
+projects[chart][download][type] = git
+projects[chart][download][revision] = 860c75c27c296a4135ac1efac773ba1cdf7edf7c
+projects[chart][download][branch] = 7.x-1.x
 
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.2
@@ -27,6 +30,9 @@ projects[google_analytics][patch][1833578] = https://drupal.org/files/google_ana
 
 projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 3.x-dev
+projects[google_analytics_reports][download][type] = git
+projects[google_analytics_reports][download][revision] = 58274ae7ca184e5648f3db4542d0e60da3fe2de2
+projects[google_analytics_reports][download][branch] = 7.x-3.x
 
 projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
@@ -44,31 +50,43 @@ libraries[mailchimp][destination] = "libraries"
 
 projects[media][subdir] = contrib
 projects[media][version] = 2.x-dev
+projects[media][download][type] = git
+projects[media][download][revision] = 2f828ea761103c49197a50aaeac9b98a350a559b
+projects[media][download][branch] = 7.x-2.x
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta3
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-beta7
+projects[metatag][version] = 1.0-beta9
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.8
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.x-dev
+projects[redirect][download][type] = git
+projects[redirect][download][revision] = 0b7b8dc2d58cb277874d87c91c45f0a361e148f7
+projects[redirect][download][branch] = 7.x-1.x
 projects[redirect][patch][1796596] = http://drupal.org/files/redirect-circular-1796596-8.patch
 
 projects[robotstxt][subdir] = contrib
 projects[robotstxt][version] = 1.x-dev
+projects[robotstxt][download][type] = git
+projects[robotstxt][download][revision] = 7c1f070e8d5e687220761ba950c0fadf4089d56a
+projects[robotstxt][download][branch] = 7.x-1.x
 
 projects[scheduler][subdir] = contrib
-projects[scheduler][version] = 1.1
+projects[scheduler][version] = 1.2
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.0
 
 projects[token_tweaks][subdir] = contrib
 projects[token_tweaks][version] = 1.x-dev
+projects[token_tweaks][download][type] = git
+projects[token_tweaks][download][revision] = 7232bbad4f53131021fefd490ba7f411b2287ea5
+projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[transliteration][subdir] = contrib
 projects[transliteration][version] = 3.1
@@ -78,26 +96,17 @@ projects[userreport][version] = 1.0-alpha4
 
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg][version] = 2.x-dev
-
-; Performance ==================================================================
-
-projects[advagg][subdir] = contrib 
-projects[advagg][version] = 2.x-dev
-
-projects[cdn][subdir] = contrib 
-projects[cdn][version] = 2.6
-projects[cdn][patch][1942230] = https://drupal.org/files/cdn-1942230-18-advagg-hooks.patch
-
-projects[httprl][subdir] = contrib 
-projects[httprl][version] = 1.12
-
-projects[entitycache][subdir] = contrib 
-projects[entitycache][version] = 1.x-dev
+projects[wysiwyg][download][type] = git
+projects[wysiwyg][download][revision] = ee64524b3edb2aa21098a2309b0736e292010247
+projects[wysiwyg][download][branch] = 7.x-2.x
 
 ; Drupal Commerce and Commerce contribs ========================================
 
 projects[billysbilling][subdir] = contrib
 projects[billysbilling][version] = 1.x-dev
+projects[billysbilling][download][type] = git
+projects[billysbilling][download][revision] = 63692143a65752869f394b16f75967d421f0240f
+projects[billysbilling][download][branch] = 7.x-1.x
 
 projects[commerce_abandoned_cart_notification][type] = "module"
 projects[commerce_abandoned_cart_notification][subdir] = "contrib"
@@ -129,24 +138,36 @@ projects[commerce_google_analytics][version] = 1.1
 
 projects[commerce_mailchimp][subdir] = contrib
 projects[commerce_mailchimp][version] = 1.x-dev
+projects[commerce_mailchimp][download][type] = git
+projects[commerce_mailchimp][download][revision] = e0a57df8a6058b082ecdebfeee90375d3cd91bdb
+projects[commerce_mailchimp][download][branch] = 7.x-1.x
 
 projects[commerce_payment_ean][subdir] = contrib
 projects[commerce_payment_ean][version] = 1.x-dev
+projects[commerce_payment_ean][download][type] = git
+projects[commerce_payment_ean][download][revision] = 6cbb467c05abc361e97cde8b43b3204d080b41e7
+projects[commerce_payment_ean][download][branch] = 7.x-1.x
 
 projects[commerce_price_components][subdir] = contrib
 projects[commerce_price_components][version] = 1.x-dev
+projects[commerce_price_components][download][type] = git
+projects[commerce_price_components][download][revision] = b1c63c97057e63ba6ff199a91d7c31a28e5e0595
+projects[commerce_price_components][download][branch] = 7.x-1.x
 
 projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_savings_formatter][version] = 1.4
 
 projects[commerce_reports][subdir] = contrib
 projects[commerce_reports][version] = 3.x-dev
+projects[commerce_reports][download][type] = git
+projects[commerce_reports][download][revision] = fb261e982ed72c11c3efba29780295d85cf87329
+projects[commerce_reports][download][branch] = 7.x-3.x
 
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.2
 
 projects[quickpay][subdir] = contrib
-projects[quickpay][version] = 1.8
+projects[quickpay][version] = 1.9
 
 projects[visualization][subdir] = contrib
 projects[visualization][version] = 1.0-alpha1
@@ -160,6 +181,7 @@ projects[frisbee][type] = "theme"
 projects[frisbee][download][type] = "git"
 projects[frisbee][download][url] = "git://github.com/discimport/frisbee-theme.git"
 projects[frisbee][download][branch] = "7.x-2.x"
+projects[frisbee][download][revision] = "c07e30f2ad88c8f0d14defa4a07d6ca4472dccf4"
 
 ; Libraries =====================================================
 
