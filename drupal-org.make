@@ -85,7 +85,7 @@ projects[site_verify][version] = 1.0
 projects[token_tweaks][subdir] = contrib
 projects[token_tweaks][version] = 1.x-dev
 projects[token_tweaks][download][type] = git
-projects[token_tweaks][download][revision] = 7232bbad4f53131021fefd490ba7f411b2287ea5
+projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644b11bb
 projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[transliteration][subdir] = contrib
