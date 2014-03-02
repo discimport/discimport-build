@@ -39,7 +39,7 @@ projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
 
 projects[l10n_update][subdir] = contrib
-projects[l10n_update][version] = 1.0-beta3
+projects[l10n_update][version] = 1.0-rc1
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.12
@@ -64,7 +64,7 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta9
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.8
+projects[mollom][version] = 2.9
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.x-dev
