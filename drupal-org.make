@@ -17,11 +17,7 @@ projects[comment_notify][version] = 1.2
 
 projects[emogrifier][subdir] = contrib
 projects[emogrifier][version] = 1.18
-
-libraries[emogrifier][download][type] = "get"
-libraries[emogrifier][download][url] = "http://www.pelagodesign.com/emogrifier/emogrifier.zip"
-libraries[emogrifier][directory_name] = "emogrifier"
-libraries[emogrifier][destination] = "libraries"
+projects[emogrifier][patch][2200267] = https://drupal.org/files/issues/issue-2200267.patch
 
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.3
