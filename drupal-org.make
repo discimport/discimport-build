@@ -106,7 +106,7 @@ projects[wysiwyg][download][branch] = 7.x-2.x
 projects[billysbilling][subdir] = contrib
 projects[billysbilling][version] = 1.x-dev
 projects[billysbilling][download][type] = git
-projects[billysbilling][download][revision] = 5aaeddfe3eb3ac1306565ec4b5999488d8743f1e
+projects[billysbilling][download][revision] = 7702c471cc0306866b802fff11a65813940a1d20
 projects[billysbilling][download][branch] = 7.x-1.x
 
 projects[commerce_abandoned_cart_notification][type] = "module"
