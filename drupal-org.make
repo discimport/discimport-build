@@ -110,7 +110,7 @@ projects[wysiwyg][download][branch] = 7.x-2.x
 projects[billysbilling][subdir] = contrib
 projects[billysbilling][version] = 1.x-dev
 projects[billysbilling][download][type] = git
-projects[billysbilling][download][revision] = 63692143a65752869f394b16f75967d421f0240f
+projects[billysbilling][download][revision] = 5aaeddfe3eb3ac1306565ec4b5999488d8743f1e
 projects[billysbilling][download][branch] = 7.x-1.x
 
 projects[commerce_abandoned_cart_notification][type] = "module"
@@ -186,11 +186,6 @@ projects[frisbee][download][branch] = "7.x-2.x"
 projects[frisbee][download][revision] = "c07e30f2ad88c8f0d14defa4a07d6ca4472dccf4"
 
 ; Libraries =====================================================
-
-libraries[billysbilling][download][type] = "get"
-libraries[billysbilling][download][url] = "https://github.com/billysbilling/billysbilling-php/archive/master.zip"
-libraries[billysbilling][directory_name] = "billysbilling-php"
-libraries[billysbilling][destination] = "libraries"
 
 libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.1.2/ckeditor_4.1.2_standard.zip"
