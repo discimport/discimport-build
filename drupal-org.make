@@ -17,7 +17,7 @@ projects[comment_notify][version] = 1.2
 
 projects[emogrifier][subdir] = contrib
 projects[emogrifier][version] = 1.18
-projects[emogrifier][patch][2200267] = https://drupal.org/files/issues/issue-2200267.patch
+projects[emogrifier][patch][2200267] = https://drupal.org/files/issues/issue-2200267_0.patch
 
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.3
