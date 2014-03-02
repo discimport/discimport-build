@@ -18,6 +18,11 @@ projects[comment_notify][version] = 1.2
 projects[emogrifier][subdir] = contrib
 projects[emogrifier][version] = 1.18
 
+libraries[emogrifier][download][type] = "get"
+libraries[emogrifier][download][url] = "http://www.pelagodesign.com/emogrifier/emogrifier.zip"
+libraries[emogrifier][directory_name] = "emogrifier"
+libraries[emogrifier][destination] = "libraries"
+
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.3
 
@@ -191,8 +196,3 @@ libraries[ckeditor][download][type] = "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.1.2/ckeditor_4.1.2_standard.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
-
-libraries[emogrifier][download][type] = "get"
-libraries[emogrifier][download][url] = "http://www.pelagodesign.com/emogrifier/emogrifier.zip"
-libraries[emogrifier][directory_name] = "emogrifier"
-libraries[emogrifier][destination] = "libraries"
