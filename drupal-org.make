@@ -73,12 +73,6 @@ projects[redirect][download][revision] = 0b7b8dc2d58cb277874d87c91c45f0a361e148f
 projects[redirect][download][branch] = 7.x-1.x
 projects[redirect][patch][1796596] = http://drupal.org/files/redirect-circular-1796596-8.patch
 
-projects[robotstxt][subdir] = contrib
-projects[robotstxt][version] = 1.x-dev
-projects[robotstxt][download][type] = git
-projects[robotstxt][download][revision] = 7c1f070e8d5e687220761ba950c0fadf4089d56a
-projects[robotstxt][download][branch] = 7.x-1.x
-
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.2
 
