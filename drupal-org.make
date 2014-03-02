@@ -44,6 +44,8 @@ projects[l10n_update][version] = 1.0-beta3
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.12
 
+; This is included as apidocs.mailchimp.com was down at some point
+; Still think this should be addressed https://drupal.org/node/2169743
 libraries[mailchimp][download][type] = "get"
 libraries[mailchimp][download][url] = "https://github.com/lsolesen/mailchimp-api-class/archive/v.1.3.2.zip"
 libraries[mailchimp][directory_name] = "mailchimp"
