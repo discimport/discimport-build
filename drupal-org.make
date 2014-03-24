@@ -108,11 +108,12 @@ projects[billysbilling][download][type] = git
 projects[billysbilling][download][revision] = 7702c471cc0306866b802fff11a65813940a1d20
 projects[billysbilling][download][branch] = 7.x-1.x
 
-projects[commerce_abandoned_cart_notification][type] = "module"
-projects[commerce_abandoned_cart_notification][subdir] = "contrib"
-projects[commerce_abandoned_cart_notification][download][type] = "git"
-projects[commerce_abandoned_cart_notification][download][url] = "http://git.drupal.org/sandbox/GuGuss/1424572.git"
-projects[commerce_abandoned_cart_notification][download][branch] = "7.x-1.x"
+projects[commerce_notification][type] = "module"
+projects[commerce_notification][subdir] = "contrib"
+projects[commerce_notification][download][type] = "git"
+projects[commerce_notification][download][url] = "http://git.drupal.org/project/commerce_notification.git"
+projects[commerce_notification][download][branch] = "7.x-1.x"
+projects[commerce_notification][download][revision] = "d28a0eb"
 
 projects[commerce_bank_transfer][subdir] = contrib
 projects[commerce_bank_transfer][version] = 1.0-alpha3
