@@ -159,19 +159,16 @@ projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_savings_formatter][version] = 1.4
 
 projects[commerce_reports][subdir] = contrib
-projects[commerce_reports][version] = 3.x-dev
+projects[commerce_reports][version] = 4.x-dev
 projects[commerce_reports][download][type] = git
-projects[commerce_reports][download][revision] = fb261e982ed72c11c3efba29780295d85cf87329
-projects[commerce_reports][download][branch] = 7.x-3.x
+projects[commerce_reports][download][revision] = 4910c7a
+projects[commerce_reports][download][branch] = 7.4-3.x
 
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.2
 
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.9
-
-projects[visualization][subdir] = contrib
-projects[visualization][version] = 1.0-alpha1
 
 ; Theme =========================================================
 
