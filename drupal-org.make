@@ -12,6 +12,12 @@ projects[chart][download][type] = git
 projects[chart][download][revision] = 860c75c27c296a4135ac1efac773ba1cdf7edf7c
 projects[chart][download][branch] = 7.x-1.x
 
+projects[charts][subdir] = contrib
+projects[charts][version] = 2.0-rc1
+
+projects[charts_google][subdir] = contrib
+projects[charts_google][version] = 2.0-rc1
+
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.2
 
@@ -99,6 +105,9 @@ projects[wysiwyg][version] = 2.x-dev
 projects[wysiwyg][download][type] = git
 projects[wysiwyg][download][revision] = ee64524b3edb2aa21098a2309b0736e292010247
 projects[wysiwyg][download][branch] = 7.x-2.x
+
+projects[views_date_format_sql][subdir] = contrib
+projects[views_date_format_sql][version] = 3.1
 
 ; Drupal Commerce and Commerce contribs ========================================
 
