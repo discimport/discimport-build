@@ -15,9 +15,6 @@ projects[chart][download][branch] = 7.x-1.x
 projects[charts][subdir] = contrib
 projects[charts][version] = 2.0-rc1
 
-projects[charts_google][subdir] = contrib
-projects[charts_google][version] = 2.0-rc1
-
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.2
 
