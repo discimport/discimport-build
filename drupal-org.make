@@ -15,6 +15,18 @@ projects[chart][download][branch] = 7.x-1.x
 projects[charts][subdir] = contrib
 projects[charts][version] = 2.0-rc1
 
+projects[coffee][version] = 2.x-dev
+projects[coffee][subdir] = contrib
+projects[coffee][download][type] = git
+projects[coffee][download][revision] = e726e1270e45470430d2216eaf29efc2af56d555
+projects[coffee][download][branch] = 7.x-2.x
+
+projects[coffee_commerce][version] = 1.x-dev
+projects[coffee_commerce][subdir] = contrib
+projects[coffee_commerce][download][type] = git
+projects[coffee_commerce][download][revision] = 1342d68
+projects[coffee_commerce][download][branch] = 7.x-1.x
+
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.2
 
