@@ -123,9 +123,9 @@ projects[billysbilling][download][branch] = 7.x-1.x
 projects[commerce_discount_product_category][type] = "module"
 projects[commerce_discount_product_category][subdir] = "contrib"
 projects[commerce_discount_product_category][download][type] = "git"
-projects[commerce_discount_product_category][download][url] = "http://git.drupal.org/sandbox/mglaman/2229057.git"
-projects[commerce_discount_product_category][download][branch] = "master"
-projects[commerce_discount_product_category][download][revision] = "1fa7a5d7380a1097ec90b87ab1e8a187250a696f"
+projects[commerce_discount_product_category][download][url] = "http://git.drupal.org/project/commerce_discount_product_category.git"
+projects[commerce_discount_product_category][download][branch] = "7.x-1.x"
+projects[commerce_discount_product_category][download][revision] = "4e57ad1"
 
 projects[commerce_notification][type] = "module"
 projects[commerce_notification][subdir] = "contrib"
