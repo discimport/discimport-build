@@ -120,17 +120,12 @@ projects[billysbilling][download][type] = git
 projects[billysbilling][download][revision] = 7702c471cc0306866b802fff11a65813940a1d20
 projects[billysbilling][download][branch] = 7.x-1.x
 
-projects[commerce_discount_product_category][type] = "module"
-projects[commerce_discount_product_category][subdir] = "contrib"
-projects[commerce_discount_product_category][download][type] = "git"
-projects[commerce_discount_product_category][download][url] = "http://git.drupal.org/project/commerce_discount_product_category.git"
-projects[commerce_discount_product_category][download][branch] = "7.x-1.x"
-projects[commerce_discount_product_category][download][revision] = "4e57ad1"
+projects[commerce_discount_product_category][subdir] = contrib
+projects[commerce_discount_product_category][version] = 1.1
 
 projects[commerce_notification][type] = "module"
 projects[commerce_notification][subdir] = "contrib"
 projects[commerce_notification][download][type] = "git"
-projects[commerce_notification][download][url] = "http://git.drupal.org/project/commerce_notification.git"
 projects[commerce_notification][download][branch] = "7.x-1.x"
 projects[commerce_notification][download][revision] = "d28a0eb"
 
