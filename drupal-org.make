@@ -51,7 +51,7 @@ projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
 
 projects[l10n_update][subdir] = contrib
-projects[l10n_update][version] = 1.0-rc1
+projects[l10n_update][version] = 1.0
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.12
@@ -76,7 +76,7 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta9
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.9
+projects[mollom][version] = 2.10
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.x-dev
@@ -89,7 +89,7 @@ projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.2
 
 projects[site_verify][subdir] = contrib
-projects[site_verify][version] = 1.0
+projects[site_verify][version] = 1.1
 
 projects[token_tweaks][subdir] = contrib
 projects[token_tweaks][version] = 1.x-dev
@@ -98,7 +98,7 @@ projects[token_tweaks][download][revision] = 75818fbfb97bf8882ca106e6af703be7644
 projects[token_tweaks][download][branch] = 7.x-1.x
 
 projects[transliteration][subdir] = contrib
-projects[transliteration][version] = 3.1
+projects[transliteration][version] = 3.2
 
 projects[userreport][subdir] = contrib
 projects[userreport][version] = 1.0-alpha4
