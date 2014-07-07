@@ -204,7 +204,7 @@ projects[frisbee][type] = "theme"
 projects[frisbee][download][type] = "git"
 projects[frisbee][download][url] = "https://github.com/discimport/frisbee-theme.git"
 projects[frisbee][download][branch] = "7.x-2.x"
-projects[frisbee][download][revision] = "c07e30f2ad88c8f0d14defa4a07d6ca4472dccf4"
+projects[frisbee][download][revision] = "62acf8b"
 
 ; Libraries =====================================================
 
