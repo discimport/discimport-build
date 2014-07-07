@@ -1,6 +1,14 @@
 api = 2
 core = 7.x
 
+; Custom modules ==============================================================
+
+projects[discimport_deploy][type] = "module"
+projects[discimport_deploy][download][type] = "git"
+projects[discimport_deploy][download][url] = "https://github.com/discimport/discimport_deploy.git"
+projects[discimport_deploy][download][branch] = "7.x-1.x"
+projects[discimport_deploy][download][revision] = "c3e129b644979a25e7073e53f86ef515808a1cc2"
+
 ; External dependencies =======================================================
 
 projects[addressfield_tokens][subdir] = contrib
@@ -188,7 +196,7 @@ projects[quickpay][version] = 1.9
 
 projects[frisbee][type] = "theme"
 projects[frisbee][download][type] = "git"
-projects[frisbee][download][url] = "git://github.com/discimport/frisbee-theme.git"
+projects[frisbee][download][url] = "https://github.com/discimport/frisbee-theme.git"
 projects[frisbee][download][branch] = "7.x-2.x"
 projects[frisbee][download][revision] = "c07e30f2ad88c8f0d14defa4a07d6ca4472dccf4"
 
