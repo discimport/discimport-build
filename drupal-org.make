@@ -154,7 +154,7 @@ projects[commerce_google_analytics][version] = 1.1
 projects[commerce_mailchimp][subdir] = contrib
 projects[commerce_mailchimp][version] = 1.x-dev
 projects[commerce_mailchimp][download][type] = git
-projects[commerce_mailchimp][download][revision] = e0a57df8a6058b082ecdebfeee90375d3cd91bdb
+projects[commerce_mailchimp][download][revision] = e0a57df
 projects[commerce_mailchimp][download][branch] = 7.x-1.x
 
 projects[commerce_payment_ean][subdir] = contrib
