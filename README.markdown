@@ -9,14 +9,12 @@ Requirements
 * [drush](http://drupal.org/project/drush) 
 * [drush_make](http://drupal.org/project/drush_make)
 
-Manually build platform on Aegir
---------------------------------
+Manually build platform
+-----------------------
 
 To build a platform, do:
 
-    su o1
-    cd /data/disk/o1
-    drush6 make https://raw.githubusercontent.com/discimport/discimport-deploy/7.x-1.x/build-discimport.make kickstart-20140320
+    drush make https://raw.githubusercontent.com/discimport/discimport-deploy/7.x-1.x/build-discimport.make kickstart-20140320
     
 Now you are able to add the distro platform, which can be added in the Aegir interface.
 
