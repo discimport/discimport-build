@@ -15,6 +15,12 @@ projects[discimport_discgolf][download][url] = "https://github.com/discimport/di
 projects[discimport_discgolf][download][branch] = "7.x-1.x"
 projects[discimport_discgolf][download][revision] = "099beefca048560c8aa89b7f844ac3e38e9f02c4"
 
+projects[discimport_discount][type] = "module"
+projects[discimport_discount][download][type] = "git"
+projects[discimport_discount][download][url] = "https://github.com/discimport/discimport_discount.git"
+projects[discimport_discount][download][branch] = "7.x-1.x"
+projects[discimport_discount][download][revision] = "16cf46da3da527ac4f002cf9351c09c42084ec9c"
+
 ; External dependencies =======================================================
 
 projects[addressfield_tokens][subdir] = contrib
