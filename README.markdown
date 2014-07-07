@@ -1,4 +1,4 @@
-[discimport.dk](http://discimport.dk)
+[discimport.dk](http://discimport.dk) [![Build Status](https://travis-ci.org/discimport/discimport-deploy.svg?branch=7.x-1.x)](https://travis-ci.org/discimport/discimport-deploy)
 ==
 
 Instructions on how to build the site from Drupal 7.
