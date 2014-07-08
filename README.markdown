@@ -1,4 +1,4 @@
-[discimport.dk](http://discimport.dk) [![Build Status](https://travis-ci.org/discimport/discimport-deploy.svg?branch=7.x-1.x)](https://travis-ci.org/discimport/discimport-deploy)
+[discimport.dk](http://discimport.dk) [![Build Status](https://travis-ci.org/discimport/discimport-build.svg?branch=7.x-1.x)](https://travis-ci.org/discimport/discimport-build)
 ==
 
 Instructions on how to build the site from Drupal 7.
@@ -14,7 +14,7 @@ Manually build platform
 
 To build a platform, do:
 
-    drush make https://raw.githubusercontent.com/discimport/discimport-deploy/7.x-1.x/build-discimport.make kickstart-20140320
+    drush make https://raw.githubusercontent.com/discimport/discimport-build/7.x-1.x/build-discimport.make kickstart-20140320
     
 Now you are able to add the distro platform, which can be added in the Aegir interface.
 
