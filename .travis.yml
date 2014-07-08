@@ -18,7 +18,7 @@ before_script:
   - sudo chmod -R 777 sites/all/modules
   - drush si commerce_kickstart --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=DISCIMPORT@2012 --site-mail=admin@example.com --site-name="discimport.dk" --yes
   - drush cc all --yes
-  - cd ../discimport-deploy
+  - cd ../discimport-build
 
 script: 
   - test -d ../discimport.dk/profiles/commerce_kickstart
