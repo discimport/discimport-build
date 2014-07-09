@@ -50,6 +50,12 @@ projects[coffee][download][branch] = 7.x-2.x
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.2
 
+projects[editableviews][subdir] = contrib
+projects[editableviews][version] = 1.x-dev
+projects[editableviews][download][type] = git
+projects[editableviews][download][revision] = 07063ce
+projects[editableviews][download][branch] = 7.x-1.x
+
 projects[emogrifier][subdir] = contrib
 projects[emogrifier][version] = 1.18
 projects[emogrifier][patch][2200267] = https://drupal.org/files/issues/issue-2200267_0.patch
