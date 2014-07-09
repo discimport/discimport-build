@@ -104,6 +104,9 @@ projects[metatag][version] = 1.0-beta9
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.10
 
+projects[optimizely][subdir] = contrib
+projects[optimizely][version] = 2.14
+
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.x-dev
 projects[redirect][download][type] = git
