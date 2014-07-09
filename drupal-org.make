@@ -25,7 +25,7 @@ projects[discimport_add_to_cart][type] = "module"
 projects[discimport_add_to_cart][download][type] = "git"
 projects[discimport_add_to_cart][download][url] = "https://github.com/discimport/discimport_add_to_cart.git"
 projects[discimport_add_to_cart][download][branch] = "7.x-1.x"
-projects[discimport_add_to_cart][download][revision] = "a257783f63b3e877f3532099c27bb731272c04d0"
+projects[discimport_add_to_cart][download][revision] = "b99092408698eff6c3fd6f300b4ca7070c1fa706"
 
 ; External dependencies =======================================================
 
