@@ -21,6 +21,12 @@ projects[discimport_discount][download][url] = "https://github.com/discimport/di
 projects[discimport_discount][download][branch] = "7.x-1.x"
 projects[discimport_discount][download][revision] = "16cf46da3da527ac4f002cf9351c09c42084ec9c"
 
+projects[discimport_add_to_cart][type] = "module"
+projects[discimport_add_to_cart][download][type] = "git"
+projects[discimport_add_to_cart][download][url] = "https://github.com/discimport/discimport_add_to_cart.git"
+projects[discimport_add_to_cart][download][branch] = "7.x-1.x"
+projects[discimport_add_to_cart][download][revision] = "a257783f63b3e877f3532099c27bb731272c04d0"
+
 ; External dependencies =======================================================
 
 projects[addressfield_tokens][subdir] = contrib
@@ -139,6 +145,14 @@ projects[billysbilling][version] = 1.x-dev
 projects[billysbilling][download][type] = git
 projects[billysbilling][download][revision] = 7702c471cc0306866b802fff11a65813940a1d20
 projects[billysbilling][download][branch] = 7.x-1.x
+
+projects[commerce_add_to_cart_extras]projects[commerce_add_to_cart_extras]
+projects[commerce_add_to_cart_extras][version] = 1.x-dev
+projects[commerce_add_to_cart_extras][download][type] = git
+projects[commerce_add_to_cart_extras][download][revision]= a4f6ea3
+projects[commerce_add_to_cart_extras][download][branch] = 7.x-1.x
+projects[commerce_add_to_cart_extras][patch][1985340] = http://drupal.org/files/issues/incorrect_form_action-1985340-7.patch
+projects[commerce_add_to_cart_extras][patch][2292023] = http://drupal.org/files/issues/commerce_add_to_cart_extras-hide_if_empty-2292023_1.patch
 
 projects[commerce_discount_product_category][subdir] = contrib
 projects[commerce_discount_product_category][version] = 1.1
