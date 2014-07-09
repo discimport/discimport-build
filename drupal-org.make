@@ -146,7 +146,7 @@ projects[billysbilling][download][type] = git
 projects[billysbilling][download][revision] = 7702c471cc0306866b802fff11a65813940a1d20
 projects[billysbilling][download][branch] = 7.x-1.x
 
-projects[commerce_add_to_cart_extras]projects[commerce_add_to_cart_extras]
+projects[commerce_add_to_cart_extras][subdir] = contrib
 projects[commerce_add_to_cart_extras][version] = 1.x-dev
 projects[commerce_add_to_cart_extras][download][type] = git
 projects[commerce_add_to_cart_extras][download][revision]= a4f6ea3
