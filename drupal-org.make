@@ -25,7 +25,7 @@ projects[discimport_add_to_cart][type] = "module"
 projects[discimport_add_to_cart][download][type] = "git"
 projects[discimport_add_to_cart][download][url] = "https://github.com/discimport/discimport_add_to_cart.git"
 projects[discimport_add_to_cart][download][branch] = "7.x-1.x"
-projects[discimport_add_to_cart][download][revision] = "b99092408698eff6c3fd6f300b4ca7070c1fa706"
+projects[discimport_add_to_cart][download][revision] = "a6e1111e270dc841962a0d1a0342719fe5e70a00"
 
 ; External dependencies =======================================================
 
@@ -233,7 +233,7 @@ projects[frisbee][type] = "theme"
 projects[frisbee][download][type] = "git"
 projects[frisbee][download][url] = "https://github.com/discimport/frisbee-theme.git"
 projects[frisbee][download][branch] = "7.x-2.x"
-projects[frisbee][download][revision] = "62acf8b"
+projects[frisbee][download][revision] = "6de486abeeae2a1ec07c317a35fa5a2fdae694f9"
 
 ; Libraries =====================================================
 
