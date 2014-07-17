@@ -5,7 +5,7 @@ core = 7.x
 
 projects[discimport_deploy][type] = "module"
 projects[discimport_deploy][download][type] = "git"
-projects[discimport_deploy][download][url] = "https:r//github.com/discimport/discimport_deploy.git"
+projects[discimport_deploy][download][url] = "https://github.com/discimport/discimport_deploy.git"
 projects[discimport_deploy][download][branch] = "7.x-1.x"
 projects[discimport_deploy][download][revision] = "c3e129b644979a25e7073e53f86ef515808a1cc2"
 
