@@ -5,7 +5,7 @@ core = 7.x
 
 projects[discimport_deploy][type] = "module"
 projects[discimport_deploy][download][type] = "git"
-projects[discimport_deploy][download][url] = "https://github.com/discimport/discimport_deploy.git"
+projects[discimport_deploy][download][url] = "https:r//github.com/discimport/discimport_deploy.git"
 projects[discimport_deploy][download][branch] = "7.x-1.x"
 projects[discimport_deploy][download][revision] = "c3e129b644979a25e7073e53f86ef515808a1cc2"
 
@@ -61,7 +61,7 @@ projects[emogrifier][version] = 1.18
 projects[emogrifier][patch][2200267] = https://drupal.org/files/issues/issue-2200267_0.patch
 
 projects[field_group][subdir] = contrib
-projects[field_group][version] = 1.3
+projects[field_group][version] = 1.4
 
 projects[features_override][version] = 2.0-rc1
 projects[features_override][subdir] = contrib
@@ -216,10 +216,7 @@ projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_savings_formatter][version] = 1.4
 
 projects[commerce_reports][subdir] = contrib
-projects[commerce_reports][version] = 4.x-dev
-projects[commerce_reports][download][type] = git
-projects[commerce_reports][download][revision] = 30c123a
-projects[commerce_reports][download][branch] = 7.x-4.x
+projects[commerce_reports][version] = 4.x-alpha3
 
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.2
