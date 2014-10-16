@@ -63,11 +63,11 @@ projects[emogrifier][patch][2200267] = https://drupal.org/files/issues/issue-220
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.4
 
-projects[features_override][version] = 2.0-rc1
+projects[features_override][version] = 2.0-rc2
 projects[features_override][subdir] = contrib
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.0-alpha3
+projects[file_entity][version] = 2.0-beta1
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.4
@@ -105,13 +105,13 @@ projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta3
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.0-rc1
+projects[metatag][version] = 1.4
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.10
 
 projects[optimizely][subdir] = contrib
-projects[optimizely][version] = 2.14
+projects[optimizely][version] = 2.17
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.x-dev
