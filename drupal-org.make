@@ -41,11 +41,8 @@ projects[chart][download][branch] = 7.x-1.x
 projects[charts][subdir] = contrib
 projects[charts][version] = 2.0-rc1
 
-projects[coffee][version] = 2.x-dev
+projects[coffee][version] = 2.2
 projects[coffee][subdir] = contrib
-projects[coffee][download][type] = git
-projects[coffee][download][revision] = e726e1270e45470430d2216eaf29efc2af56d555
-projects[coffee][download][branch] = 7.x-2.x
 
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.2
@@ -74,16 +71,13 @@ projects[google_analytics][version] = 1.4
 projects[google_analytics][patch][1833578] = https://drupal.org/files/google_analytics-enhanced_link_attribution-1833578-26.patch
 
 projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][version] = 3.x-dev
-projects[google_analytics_reports][download][type] = git
-projects[google_analytics_reports][download][revision] = 58274ae7ca184e5648f3db4542d0e60da3fe2de2
-projects[google_analytics_reports][download][branch] = 7.x-3.x
+projects[google_analytics_reports][version] = 3.0-beta1
 
 projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
 
 projects[l10n_update][subdir] = contrib
-projects[l10n_update][version] = 1.0
+projects[l10n_update][version] = 1.1
 
 projects[mailchimp][subdir] = contrib
 projects[mailchimp][version] = 2.12
@@ -177,7 +171,7 @@ projects[commerce_bank_transfer][version] = 1.0-alpha3
 projects[commerce_bank_transfer][patch][1788790] = http://drupal.org/files/issue-1788790.patch
 
 projects[commerce_cart_expiration][subdir] = contrib
-projects[commerce_cart_expiration][version] = 1.1
+projects[commerce_cart_expiration][version] = 1.2
 
 projects[commerce_coupon][subdir] = contrib
 projects[commerce_coupon][version] = 1.0-beta7
@@ -222,7 +216,7 @@ projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 1.2
 
 projects[quickpay][subdir] = contrib
-projects[quickpay][version] = 1.9
+projects[quickpay][version] = 1.11
 
 ; Theme =========================================================
 
