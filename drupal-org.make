@@ -147,10 +147,10 @@ projects[views_date_format_sql][version] = 3.1
 ; Drupal Commerce and Commerce contribs ========================================
 
 projects[billysbilling][subdir] = contrib
-projects[billysbilling][version] = 1.x-dev
+projects[billysbilling][version] = 2.x-dev
 projects[billysbilling][download][type] = git
-projects[billysbilling][download][revision] = 7702c471cc0306866b802fff11a65813940a1d20
-projects[billysbilling][download][branch] = 7.x-1.x
+projects[billysbilling][download][revision] = c3590e9
+projects[billysbilling][download][branch] = 7.x-2.x
 
 projects[commerce_add_to_cart_extras][subdir] = contrib
 projects[commerce_add_to_cart_extras][version] = 1.x-dev
