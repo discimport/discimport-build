@@ -118,7 +118,7 @@ projects[redirect][download][branch] = 7.x-1.x
 projects[redirect][patch][1796596] = http://drupal.org/files/redirect-circular-1796596-8.patch
 
 projects[scheduler][subdir] = contrib
-projects[scheduler][version] = 1.2
+projects[scheduler][version] = 1.3
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
