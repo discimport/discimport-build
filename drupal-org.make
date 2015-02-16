@@ -41,9 +41,6 @@ projects[chart][download][branch] = 7.x-1.x
 projects[charts][subdir] = contrib
 projects[charts][version] = 2.0-rc1
 
-projects[coffee][version] = 2.2
-projects[coffee][subdir] = contrib
-
 projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.2
 
@@ -149,7 +146,7 @@ projects[views_date_format_sql][version] = 3.1
 projects[billysbilling][subdir] = contrib
 projects[billysbilling][version] = 2.x-dev
 projects[billysbilling][download][type] = git
-projects[billysbilling][download][revision] = 7ae60ef
+projects[billysbilling][download][revision] = e8253f8
 projects[billysbilling][download][branch] = 7.x-2.x
 
 projects[commerce_add_to_cart_extras][subdir] = contrib
