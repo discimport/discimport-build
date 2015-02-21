@@ -141,6 +141,9 @@ projects[wysiwyg][download][branch] = 7.x-2.x
 projects[views_date_format_sql][subdir] = contrib
 projects[views_date_format_sql][version] = 3.1
 
+projects[xautoload][subdir] = contrib
+projects[xautoload][version] = 5.1
+
 ; Drupal Commerce and Commerce contribs ========================================
 
 projects[billysbilling][subdir] = contrib
