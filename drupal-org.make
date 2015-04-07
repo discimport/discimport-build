@@ -120,6 +120,9 @@ projects[scheduler][version] = 1.3
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
 
+projects[sumome][subdir] = contrib
+projects[sumome][version] = 1.0-beta1
+
 projects[token_tweaks][subdir] = contrib
 projects[token_tweaks][version] = 1.x-dev
 projects[token_tweaks][download][type] = git
