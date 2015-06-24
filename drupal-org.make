@@ -57,7 +57,7 @@ projects[field_group][version] = 1.4
 projects[features_override][version] = 2.0-rc2
 projects[features_override][subdir] = contrib
 
-projects[honeypot][version] = 1.17
+projects[honeypot][version] = 1.18
 projects[honeypot][subdir] = contrib
 
 projects[file_entity][subdir] = contrib
