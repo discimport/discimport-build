@@ -45,10 +45,7 @@ projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.2
 
 projects[editableviews][subdir] = contrib
-projects[editableviews][version] = 1.x-dev
-projects[editableviews][download][type] = git
-projects[editableviews][download][revision] = 07063ce
-projects[editableviews][download][branch] = 7.x-1.x
+projects[editableviews][version] = 1.0-beta9
 
 projects[emogrifier][subdir] = contrib
 projects[emogrifier][version] = 1.18
