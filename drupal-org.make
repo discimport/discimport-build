@@ -99,7 +99,7 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.5
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.13
+projects[mollom][version] = 2.14
 
 projects[optimizely][subdir] = contrib
 projects[optimizely][version] = 2.17
