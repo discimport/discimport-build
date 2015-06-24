@@ -8,4 +8,4 @@ includes[] =  https://raw.github.com/discimport/discimport-build/7.x-1.x/drupal-
 
 ; Commerce Kickstart
 projects[commerce_kickstart][type] = profile
-projects[commerce_kickstart][version] = 2.24
+projects[commerce_kickstart][version] = 2.25
