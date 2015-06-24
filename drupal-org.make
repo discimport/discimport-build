@@ -96,7 +96,7 @@ projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta3
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.4
+projects[metatag][version] = 1.5
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.13
