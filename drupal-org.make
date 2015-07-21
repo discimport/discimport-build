@@ -87,16 +87,13 @@ libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.x-dev
-projects[media][download][type] = git
-projects[media][download][revision] = 2f828ea761103c49197a50aaeac9b98a350a559b
-projects[media][download][branch] = 7.x-2.x
+projects[media][version] = 2.0-beta1
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 1.0-beta3
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.5
+projects[metatag][version] = 1.6
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.14
@@ -105,11 +102,7 @@ projects[optimizely][subdir] = contrib
 projects[optimizely][version] = 2.17
 
 projects[redirect][subdir] = contrib
-projects[redirect][version] = 1.x-dev
-projects[redirect][download][type] = git
-projects[redirect][download][revision] = 0b7b8dc2d58cb277874d87c91c45f0a361e148f7
-projects[redirect][download][branch] = 7.x-1.x
-projects[redirect][patch][1796596] = http://drupal.org/files/redirect-circular-1796596-8.patch
+projects[redirect][version] = 1.0-rc3
 
 projects[scheduler][subdir] = contrib
 projects[scheduler][version] = 1.3
@@ -142,7 +135,7 @@ projects[views_date_format_sql][subdir] = contrib
 projects[views_date_format_sql][version] = 3.1
 
 projects[xautoload][subdir] = contrib
-projects[xautoload][version] = 5.1
+projects[xautoload][version] = 5.2
 
 ; Drupal Commerce and Commerce contribs ========================================
 
