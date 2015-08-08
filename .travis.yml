@@ -34,6 +34,7 @@ install:
 
 before_script:
   - drush si commerce_kickstart --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=DISCIMPORT@2012 --site-mail=admin@example.com --site-name="discimport.dk" --yes
+  - drush en discimport_deploy -y
   - drush cc all --yes
   - cd ../discimport-build
 
