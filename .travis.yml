@@ -41,4 +41,4 @@ before_script:
 script:
   - test -d ../discimport.dk/profiles/commerce_kickstart
   - test -d ../discimport.dk/sites/all/modules/contrib
-  - ../../scripts/check-overridden.sh
+  - ./scripts/check-overridden.sh
