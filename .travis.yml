@@ -28,17 +28,44 @@ install:
   - travis_retry composer global require "drush/drush:6.*"
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
 
-  - drush make build-discimport.make ../discimport.dk
-  - cd ../discimport.dk
-  - chmod -R 777 sites/all/modules
+  # Build Codebase
+  - mkdir private_files
+  - mkdir profiles
+  - mv discimport-build profiles/
+  - mkdir drupal
+  - mv profiles drupal/
+  
+  # Build the current branch
+  - cd drupal
+  - drush make --yes profiles/discimport-build/build-discimport.make --prepare-install
+  - drush dl diff
+  - cd ../
+
+  # Setup files
+  - chmod -R 777 drupal/sites/all
+
+  # Increase the MySQL connection timeout on the PHP end.
+  - echo "mysql.connect_timeout=3000" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+  - echo "default_socket_timeout=3000" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+
+  # Increase the MySQL server timetout and packet size.
+  - mysql -e "SET GLOBAL wait_timeout = 36000;"
+  - mysql -e "SET GLOBAL max_allowed_packet = 33554432;"
+
+   # Disable sendmail
+  - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
 before_script:
   - drush si commerce_kickstart --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=DISCIMPORT@2012 --site-mail=admin@example.com --site-name="discimport.dk" --yes
+  - drush pm-disable dblog --yes
   - drush en discimport_deploy -y
   - drush cc all --yes
-  - cd ../discimport-build
+  - cd ../drupal
+
 
 script:
-  - test -d ../discimport.dk/profiles/commerce_kickstart
-  - test -d ../discimport.dk/sites/all/modules/contrib
+  - test -d profiles/commerce_kickstart
+  - test -d sites/all/modules/contrib
+  
+  - cd profiles/discimport-build
   - ./scripts/check-overridden.sh
