@@ -38,6 +38,7 @@ before_script:
   - drush cc all --yes
   - cd ../discimport-build
 
-script: 
+script:
   - test -d ../discimport.dk/profiles/commerce_kickstart
   - test -d ../discimport.dk/sites/all/modules/contrib
+  - ../../scripts/check-overridden.sh
