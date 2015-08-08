@@ -30,7 +30,7 @@ install:
 
   - drush make build-discimport.make ../discimport.dk
   - cd ../discimport.dk
-  - sudo chmod -R 777 sites/all/modules
+  - chmod -R 777 sites/all/modules
 
 before_script:
   - drush si commerce_kickstart --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=DISCIMPORT@2012 --site-mail=admin@example.com --site-name="discimport.dk" --yes
