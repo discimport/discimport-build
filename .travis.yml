@@ -1,23 +1,38 @@
 language: php
+sudo: false
 
 php:
-  - 5.3
-  - 5.4
   - 5.5
 
 mysql:
   database: drupal
   username: root
   encoding: utf8
-  
-before_script:
+
+matrix:
+  fast_finish: true
+  include:
+    - php: 5.6
+
+# Cache Composer & Drush directories.
+cache:
+  directories:
+    - $HOME/.composer/cache
+    - $HOME/.drush/cache
+
+install:
   - "mysql -e 'create database drupal;'"
-  - pear channel-discover pear.drush.org
-  - pear install drush/drush
-  - phpenv rehash
+
+  # Install latest Drush 6.
+  - travis_retry composer self-update && composer --version
+  - travis_retry composer global require "drush/drush:6.*"
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+
   - drush make build-discimport.make ../discimport.dk
   - cd ../discimport.dk
   - sudo chmod -R 777 sites/all/modules
+
+before_script:
   - drush si commerce_kickstart --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=DISCIMPORT@2012 --site-mail=admin@example.com --site-name="discimport.dk" --yes
   - drush cc all --yes
   - cd ../discimport-build
