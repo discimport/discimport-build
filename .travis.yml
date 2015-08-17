@@ -29,6 +29,7 @@ install:
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
 
   # Build Codebase
+  - cd ..
   - mkdir private_files
   - mkdir profiles
   - mv discimport-build profiles/
