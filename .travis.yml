@@ -59,16 +59,18 @@ install:
   - echo sendmail_path=`which true` >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
 before_script:
+
+  - cd drupal
   - drush si commerce_kickstart --db-url=mysql://root:@127.0.0.1/drupal --account-name=admin --account-pass=DISCIMPORT@2012 --site-mail=admin@example.com --site-name="discimport.dk" --yes
   - drush pm-disable dblog --yes
   - drush en discimport_deploy -y
   - drush cc all --yes
-  - cd ../drupal
-
 
 script:
+
+  # Testing that it has been build correctly
   - test -d profiles/commerce_kickstart
   - test -d sites/all/modules/contrib
   
-  - cd profiles/discimport-build
-  - ./scripts/check-overridden.sh
+  # Testing no features are overridden
+  - ./profiles/discimport-build/scripts/check-overridden.sh
