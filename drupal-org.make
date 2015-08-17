@@ -30,7 +30,7 @@ projects[discimport_add_to_cart][download][revision] = "a6e1111e270dc841962a0d1a
 ; External dependencies =======================================================
 
 projects[addressfield_tokens][subdir] = contrib
-projects[addressfield_tokens][version] = 1.3
+projects[addressfield_tokens][version] = 1.5
 
 projects[chart][subdir] = contrib
 projects[chart][version] = 1.x-dev
@@ -45,7 +45,7 @@ projects[comment_notify][subdir] = contrib
 projects[comment_notify][version] = 1.2
 
 projects[editableviews][subdir] = contrib
-projects[editableviews][version] = 1.0-beta9
+projects[editableviews][version] = 1.0-beta10
 
 projects[emogrifier][subdir] = contrib
 projects[emogrifier][version] = 1.18
@@ -57,18 +57,18 @@ projects[field_group][version] = 1.4
 projects[features_override][version] = 2.0-rc2
 projects[features_override][subdir] = contrib
 
-projects[honeypot][version] = 1.18
+projects[honeypot][version] = 1.19
 projects[honeypot][subdir] = contrib
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.0-beta1
+projects[file_entity][version] = 2.0-beta2
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 1.4
 projects[google_analytics][patch][1833578] = https://drupal.org/files/google_analytics-enhanced_link_attribution-1833578-26.patch
 
 projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][version] = 3.0-beta1
+projects[google_analytics_reports][version] = 3.0-beta2
 
 projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
@@ -90,10 +90,10 @@ projects[media][subdir] = contrib
 projects[media][version] = 2.0-beta1
 
 projects[media_youtube][subdir] = contrib
-projects[media_youtube][version] = 1.0-beta3
+projects[media_youtube][version] = 3.0
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.6
+projects[metatag][version] = 1.7
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.14
