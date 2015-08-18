@@ -7,25 +7,31 @@ projects[discimport_deploy][type] = "module"
 projects[discimport_deploy][download][type] = "git"
 projects[discimport_deploy][download][url] = "https://github.com/discimport/discimport_deploy.git"
 projects[discimport_deploy][download][branch] = "7.x-1.x"
-projects[discimport_deploy][download][revision] = "5cb6819d88336812a5f41f549eb6aa3144deaa40"
+projects[discimport_deploy][download][revision] = "a940f82d55163f4e4dffb2d0659c77cf6a729ce8"
+
+projects[discimport_discs][type] = "module"
+projects[discimport_discs][download][type] = "git"
+projects[discimport_discs][download][url] = "https://github.com/discimport/discimport_discs.git"
+projects[discimport_discs][download][branch] = "7.x-1.x"
+projects[discimport_discs][download][revision] = "0caee2bca9b8facf6433a368b408414055b8118c"
 
 projects[discimport_discgolf][type] = "module"
 projects[discimport_discgolf][download][type] = "git"
 projects[discimport_discgolf][download][url] = "https://github.com/discimport/discimport_discgolf.git"
 projects[discimport_discgolf][download][branch] = "7.x-1.x"
-projects[discimport_discgolf][download][revision] = "099beefca048560c8aa89b7f844ac3e38e9f02c4"
+projects[discimport_discgolf][download][revision] = "02dea5b4d72a7ddb75ec3b97c2a36cd8aedf612b"
 
 projects[discimport_discount][type] = "module"
 projects[discimport_discount][download][type] = "git"
 projects[discimport_discount][download][url] = "https://github.com/discimport/discimport_discount.git"
 projects[discimport_discount][download][branch] = "7.x-1.x"
-projects[discimport_discount][download][revision] = "16cf46da3da527ac4f002cf9351c09c42084ec9c"
+projects[discimport_discount][download][revision] = "9057e192d4aead09c1d3479df6451521ec491413"
 
 projects[discimport_add_to_cart][type] = "module"
 projects[discimport_add_to_cart][download][type] = "git"
 projects[discimport_add_to_cart][download][url] = "https://github.com/discimport/discimport_add_to_cart.git"
 projects[discimport_add_to_cart][download][branch] = "7.x-1.x"
-projects[discimport_add_to_cart][download][revision] = "a6e1111e270dc841962a0d1a0342719fe5e70a00"
+projects[discimport_add_to_cart][download][revision] = "8648e65e8d3a30ef48172ab5691a1e0554ba9a04"
 
 ; External dependencies =======================================================
 
