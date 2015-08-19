@@ -35,7 +35,7 @@ projects[discimport_add_to_cart][download][revision] = "8648e65e8d3a30ef48172ab5
 
 projects[discimport_stock][type] = "module"
 projects[discimport_stock][download][type] = "git"
-projects[discimport_stock][download][url] = "https://github.com/discimport/discimport_discgolf.git"
+projects[discimport_stock][download][url] = "https://github.com/discimport/discimport_stock.git"
 projects[discimport_stock][download][branch] = "7.x-1.x"
 projects[discimport_stock][download][revision] = "2d9e1980f77987c62df190bc35d3fabd7553c4a8"
 
