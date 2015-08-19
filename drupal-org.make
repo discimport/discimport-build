@@ -7,7 +7,7 @@ projects[discimport_deploy][type] = "module"
 projects[discimport_deploy][download][type] = "git"
 projects[discimport_deploy][download][url] = "https://github.com/discimport/discimport_deploy.git"
 projects[discimport_deploy][download][branch] = "7.x-1.x"
-projects[discimport_deploy][download][revision] = "a940f82d55163f4e4dffb2d0659c77cf6a729ce8"
+projects[discimport_deploy][download][revision] = "f3b1312db4223688d8723a1f94f5765ede38a917"
 
 projects[discimport_discs][type] = "module"
 projects[discimport_discs][download][type] = "git"
@@ -32,6 +32,12 @@ projects[discimport_add_to_cart][download][type] = "git"
 projects[discimport_add_to_cart][download][url] = "https://github.com/discimport/discimport_add_to_cart.git"
 projects[discimport_add_to_cart][download][branch] = "7.x-1.x"
 projects[discimport_add_to_cart][download][revision] = "8648e65e8d3a30ef48172ab5691a1e0554ba9a04"
+
+projects[discimport_stock][type] = "module"
+projects[discimport_stock][download][type] = "git"
+projects[discimport_stock][download][url] = "https://github.com/discimport/discimport_discgolf.git"
+projects[discimport_stock][download][branch] = "7.x-1.x"
+projects[discimport_stock][download][revision] = "2d9e1980f77987c62df190bc35d3fabd7553c4a8"
 
 ; External dependencies =======================================================
 
