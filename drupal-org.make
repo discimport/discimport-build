@@ -7,7 +7,7 @@ projects[discimport_deploy][type] = "module"
 projects[discimport_deploy][download][type] = "git"
 projects[discimport_deploy][download][url] = "https://github.com/discimport/discimport_deploy.git"
 projects[discimport_deploy][download][branch] = "7.x-1.x"
-projects[discimport_deploy][download][revision] = "f3b1312db4223688d8723a1f94f5765ede38a917"
+projects[discimport_deploy][download][revision] = "c514b2e4232d61335d99391cc94430ac1295272f"
 
 projects[discimport_discs][type] = "module"
 projects[discimport_discs][download][type] = "git"
