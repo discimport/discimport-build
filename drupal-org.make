@@ -218,7 +218,7 @@ projects[commerce_price_savings_formatter][subdir] = contrib
 projects[commerce_price_savings_formatter][version] = 1.4
 
 projects[commerce_reports][subdir] = contrib
-projects[commerce_reports][version] = 4.0-beta2
+projects[commerce_reports][version] = 4.0-beta3
 
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 2.1
