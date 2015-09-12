@@ -223,6 +223,12 @@ projects[commerce_reports][version] = 4.0-beta3
 projects[commerce_stock][subdir] = contrib
 projects[commerce_stock][version] = 2.1
 
+projects[pakkelabels][subdir] = contrib
+projects[pakkelabels][version] = 1.x-dev
+projects[pakkelabels][download][type] = git
+projects[pakkelabels][download][revision] = 9ba9204
+projects[pakkelabels][download][branch] = 7.x-1.x
+
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.11
 
