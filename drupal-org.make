@@ -233,6 +233,9 @@ projects[quickpay_payment][download][type] = "git"
 projects[quickpay_payment][download][url] = "https://github.com/lsolesen/quickpay.git"
 projects[quickpay_payment][download][branch] = "7.x-1.x"
 projects[quickpay_payment][download][revision] = "2dbf9f1a928b819292fad66764da0802b29b3ff8"
+projects[commerce_gc][subdir] = contrib
+projects[commerce_gc][version] = 1.0-rc1
+projects[commerce_gc][patch][2307721] = https://www.drupal.org/files/issues/commerce_gc-checkout-pane.patch
 
 ; Theme =========================================================
 
