@@ -226,6 +226,10 @@ projects[pakkelabels][download][branch] = 7.x-1.x
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.11
 
+projects[commerce_gc][subdir] = contrib
+projects[commerce_gc][version] = 1.0-rc1
+projects[commerce_gc][patch][2307721] = https://www.drupal.org/files/issues/commerce_gc-checkout-pane.patch
+
 ; Theme =========================================================
 
 projects[frisbee][type] = "theme"
