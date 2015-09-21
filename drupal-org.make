@@ -230,6 +230,9 @@ projects[commerce_gc][subdir] = contrib
 projects[commerce_gc][version] = 1.0-rc1
 projects[commerce_gc][patch][2307721] = https://www.drupal.org/files/issues/commerce_gc-checkout-pane.patch
 
+projects[email][subdir] = contrib
+projects[email][version] = 1.3
+
 ; Theme =========================================================
 
 projects[frisbee][type] = "theme"
