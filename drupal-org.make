@@ -147,7 +147,7 @@ projects[views_date_format_sql][subdir] = contrib
 projects[views_date_format_sql][version] = 3.1
 
 projects[xautoload][subdir] = contrib
-projects[xautoload][version] = 5.4
+projects[xautoload][version] = 5.5
 
 ; Drupal Commerce and Commerce contribs ========================================
 
