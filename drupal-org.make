@@ -223,8 +223,16 @@ projects[pakkelabels][download][type] = git
 projects[pakkelabels][download][revision] = a171496
 projects[pakkelabels][download][branch] = 7.x-1.x
 
+; Old Quickpay payment.
 projects[quickpay][subdir] = contrib
 projects[quickpay][version] = 1.11
+
+; New Quickpay v10 payment platform.
+projects[quickpay_payment][type] = "module"
+projects[quickpay_payment][download][type] = "git"
+projects[quickpay_payment][download][url] = "https://github.com/lsolesen/quickpay.git"
+projects[quickpay_payment][download][branch] = "7.x-1.x"
+projects[quickpay_payment][download][revision] = "2dbf9f1a928b819292fad66764da0802b29b3ff8"
 
 ; Theme =========================================================
 
