@@ -182,7 +182,7 @@ projects[commerce_cart_expiration][subdir] = contrib
 projects[commerce_cart_expiration][version] = 1.2
 
 projects[commerce_coupon][subdir] = contrib
-projects[commerce_coupon][version] = 2.0-rc1
+projects[commerce_coupon][version] = 2.0-rc2
 
 projects[commerce_fieldgroup_panes][subdir] = contrib
 projects[commerce_fieldgroup_panes][version] = 1.0
