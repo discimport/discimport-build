@@ -76,8 +76,7 @@ projects[file_entity][subdir] = contrib
 projects[file_entity][version] = 2.0-beta2
 
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][version] = 1.4
-projects[google_analytics][patch][1833578] = https://drupal.org/files/google_analytics-enhanced_link_attribution-1833578-26.patch
+projects[google_analytics][version] = 2.1
 
 projects[google_analytics_reports][subdir] = contrib
 projects[google_analytics_reports][version] = 3.0-beta2
