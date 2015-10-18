@@ -220,7 +220,7 @@ projects[commerce_stock][version] = 2.1
 projects[pakkelabels][subdir] = contrib
 projects[pakkelabels][version] = 1.x-dev
 projects[pakkelabels][download][type] = git
-projects[pakkelabels][download][revision] = a171496
+projects[pakkelabels][download][revision] = f4c3ec4
 projects[pakkelabels][download][branch] = 7.x-1.x
 
 ; Old Quickpay payment.
