@@ -153,7 +153,7 @@ projects[xautoload][version] = 5.5
 projects[billysbilling][subdir] = contrib
 projects[billysbilling][version] = 2.x-dev
 projects[billysbilling][download][type] = git
-projects[billysbilling][download][revision] = d2f8675
+projects[billysbilling][download][revision] = 3432ebf
 projects[billysbilling][download][branch] = 7.x-2.x
 
 projects[commerce_add_to_cart_extras][subdir] = contrib
