@@ -110,7 +110,7 @@ projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.14
 
 projects[optimizely][subdir] = contrib
-projects[optimizely][version] = 2.17
+projects[optimizely][version] = 2.18
 
 projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc3
@@ -167,11 +167,12 @@ projects[commerce_add_to_cart_extras][patch][2292023] = http://drupal.org/files/
 projects[commerce_discount_product_category][subdir] = contrib
 projects[commerce_discount_product_category][version] = 1.1
 
-projects[commerce_notification][type] = "module"
-projects[commerce_notification][subdir] = "contrib"
-projects[commerce_notification][download][type] = "git"
-projects[commerce_notification][download][branch] = "7.x-1.x"
-projects[commerce_notification][download][revision] = "d28a0eb"
+projects[commerce_notification][subdir] = contrib
+projects[commerce_notification][type] = module
+projects[commerce_notification][version] = 2.x-dev
+projects[commerce_notification][download][type] = git
+projects[commerce_notification][download][branch] = 7.x-2.x
+projects[commerce_notification][download][revision] = 333801f
 
 projects[commerce_bank_transfer][subdir] = contrib
 projects[commerce_bank_transfer][version] = 1.0-alpha3
