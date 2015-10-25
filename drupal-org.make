@@ -13,7 +13,7 @@ projects[discimport_discs][type] = "module"
 projects[discimport_discs][download][type] = "git"
 projects[discimport_discs][download][url] = "https://github.com/discimport/discimport_discs.git"
 projects[discimport_discs][download][branch] = "7.x-1.x"
-projects[discimport_discs][download][revision] = "0caee2bca9b8facf6433a368b408414055b8118c"
+projects[discimport_discs][download][revision] = "63cc492"
 
 projects[discimport_discgolf][type] = "module"
 projects[discimport_discgolf][download][type] = "git"
