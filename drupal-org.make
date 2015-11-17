@@ -223,16 +223,13 @@ projects[pakkelabels][download][type] = git
 projects[pakkelabels][download][revision] = f4c3ec4
 projects[pakkelabels][download][branch] = 7.x-1.x
 
-; Old Quickpay payment.
-projects[quickpay][subdir] = contrib
-projects[quickpay][version] = 1.11
-
 ; New Quickpay v10 payment platform.
 projects[quickpay_payment][type] = "module"
 projects[quickpay_payment][download][type] = "git"
-projects[quickpay_payment][download][url] = "https://github.com/lsolesen/quickpay.git"
+projects[quickpay_payment][download][url] = "https://github.com/lsolesen/quickpay_payment.git"
 projects[quickpay_payment][download][branch] = "7.x-1.x"
-projects[quickpay_payment][download][revision] = "2dbf9f1a928b819292fad66764da0802b29b3ff8"
+projects[quickpay_payment][download][revision] = "67063e2"
+
 projects[commerce_gc][subdir] = contrib
 projects[commerce_gc][version] = 1.0-rc1
 projects[commerce_gc][patch][2307721] = https://www.drupal.org/files/issues/commerce_gc-checkout-pane.patch
