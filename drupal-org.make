@@ -7,19 +7,19 @@ projects[discimport_deploy][type] = "module"
 projects[discimport_deploy][download][type] = "git"
 projects[discimport_deploy][download][url] = "https://github.com/discimport/discimport_deploy.git"
 projects[discimport_deploy][download][branch] = "7.x-1.x"
-projects[discimport_deploy][download][revision] = "62f22b29bf1d27fc0d31e61e7dca7cc66177bd24"
+projects[discimport_deploy][download][revision] = "f8737a2"
 
 projects[discimport_discs][type] = "module"
 projects[discimport_discs][download][type] = "git"
 projects[discimport_discs][download][url] = "https://github.com/discimport/discimport_discs.git"
 projects[discimport_discs][download][branch] = "7.x-1.x"
-projects[discimport_discs][download][revision] = "63cc492"
+projects[discimport_discs][download][revision] = "a15728d"
 
 projects[discimport_discgolf][type] = "module"
 projects[discimport_discgolf][download][type] = "git"
 projects[discimport_discgolf][download][url] = "https://github.com/discimport/discimport_discgolf.git"
 projects[discimport_discgolf][download][branch] = "7.x-1.x"
-projects[discimport_discgolf][download][revision] = "41f563c"
+projects[discimport_discgolf][download][revision] = "c17c6e9"
 
 projects[discimport_discount][type] = "module"
 projects[discimport_discount][download][type] = "git"
@@ -37,7 +37,7 @@ projects[discimport_stock][type] = "module"
 projects[discimport_stock][download][type] = "git"
 projects[discimport_stock][download][url] = "https://github.com/discimport/discimport_stock.git"
 projects[discimport_stock][download][branch] = "7.x-1.x"
-projects[discimport_stock][download][revision] = "2d9e1980f77987c62df190bc35d3fabd7553c4a8"
+projects[discimport_stock][download][revision] = "176c549"
 
 ; External dependencies =======================================================
 
