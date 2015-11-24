@@ -25,7 +25,7 @@ projects[discimport_discount][type] = "module"
 projects[discimport_discount][download][type] = "git"
 projects[discimport_discount][download][url] = "https://github.com/discimport/discimport_discount.git"
 projects[discimport_discount][download][branch] = "7.x-1.x"
-projects[discimport_discount][download][revision] = "f697ed3"
+projects[discimport_discount][download][revision] = "8022fd3"
 
 projects[discimport_add_to_cart][type] = "module"
 projects[discimport_add_to_cart][download][type] = "git"
