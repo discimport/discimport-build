@@ -54,7 +54,7 @@ projects[charts][subdir] = contrib
 projects[charts][version] = 2.0-rc1
 
 projects[comment_notify][subdir] = contrib
-projects[comment_notify][version] = 1.2
+projects[comment_notify][version] = 1.3
 
 projects[editableviews][subdir] = contrib
 projects[editableviews][version] = 1.0-beta10
@@ -107,7 +107,7 @@ projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.7
 
 projects[mollom][subdir] = contrib
-projects[mollom][version] = 2.14
+projects[mollom][version] = 2.15
 
 projects[optimizely][subdir] = contrib
 projects[optimizely][version] = 2.18
@@ -165,7 +165,7 @@ projects[commerce_add_to_cart_extras][patch][1985340] = http://drupal.org/files/
 projects[commerce_add_to_cart_extras][patch][2292023] = http://drupal.org/files/issues/commerce_add_to_cart_extras-hide_if_empty-2292023_1.patch
 
 projects[commerce_discount_product_category][subdir] = contrib
-projects[commerce_discount_product_category][version] = 1.1
+projects[commerce_discount_product_category][version] = 1.2
 
 projects[commerce_notification][subdir] = contrib
 projects[commerce_notification][type] = module
@@ -191,10 +191,7 @@ projects[commerce_google_analytics][subdir] = contrib
 projects[commerce_google_analytics][version] = 1.1
 
 projects[commerce_mailchimp][subdir] = contrib
-projects[commerce_mailchimp][version] = 1.x-dev
-projects[commerce_mailchimp][download][type] = git
-projects[commerce_mailchimp][download][revision] = e0a57df
-projects[commerce_mailchimp][download][branch] = 7.x-1.x
+projects[commerce_mailchimp][version] = 1.0
 
 projects[commerce_payment_ean][subdir] = contrib
 projects[commerce_payment_ean][version] = 1.x-dev
@@ -215,7 +212,7 @@ projects[commerce_reports][subdir] = contrib
 projects[commerce_reports][version] = 4.0-beta3
 
 projects[commerce_stock][subdir] = contrib
-projects[commerce_stock][version] = 2.1
+projects[commerce_stock][version] = 2.2
 
 projects[pakkelabels][subdir] = contrib
 projects[pakkelabels][version] = 1.x-dev
