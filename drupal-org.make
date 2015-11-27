@@ -3,6 +3,12 @@ core = 7.x
 
 ; Custom modules ==============================================================
 
+projects[discimport_add_to_cart][type] = "module"
+projects[discimport_add_to_cart][download][type] = "git"
+projects[discimport_add_to_cart][download][url] = "https://github.com/discimport/discimport_add_to_cart.git"
+projects[discimport_add_to_cart][download][branch] = "7.x-1.x"
+projects[discimport_add_to_cart][download][revision] = "7f1cac0"
+
 projects[discimport_deploy][type] = "module"
 projects[discimport_deploy][download][type] = "git"
 projects[discimport_deploy][download][url] = "https://github.com/discimport/discimport_deploy.git"
@@ -26,12 +32,6 @@ projects[discimport_discount][download][type] = "git"
 projects[discimport_discount][download][url] = "https://github.com/discimport/discimport_discount.git"
 projects[discimport_discount][download][branch] = "7.x-1.x"
 projects[discimport_discount][download][revision] = "ef631fd"
-
-projects[discimport_add_to_cart][type] = "module"
-projects[discimport_add_to_cart][download][type] = "git"
-projects[discimport_add_to_cart][download][url] = "https://github.com/discimport/discimport_add_to_cart.git"
-projects[discimport_add_to_cart][download][branch] = "7.x-1.x"
-projects[discimport_add_to_cart][download][revision] = "71d0e201054ae4309a1030d80db02e277434fe42"
 
 projects[discimport_stock][type] = "module"
 projects[discimport_stock][download][type] = "git"
