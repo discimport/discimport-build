@@ -163,7 +163,6 @@ projects[commerce_add_to_cart_extras][download][revision]= a4f6ea3
 projects[commerce_add_to_cart_extras][download][branch] = 7.x-1.x
 projects[commerce_add_to_cart_extras][patch][1985340] = http://drupal.org/files/issues/incorrect_form_action-1985340-7.patch
 projects[commerce_add_to_cart_extras][patch][2292023] = http://drupal.org/files/issues/commerce_add_to_cart_extras-hide_if_empty-2292023_1.patch
-projects[commerce_add_to_cart_extras][patch][1440944] = https://www.drupal.org/files/issues/commerce_add_to_cart_extras-validate_stock-1440944.patch
 
 projects[commerce_discount_product_category][subdir] = contrib
 projects[commerce_discount_product_category][version] = 1.2
