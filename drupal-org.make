@@ -25,7 +25,7 @@ projects[discimport_discgolf][type] = "module"
 projects[discimport_discgolf][download][type] = "git"
 projects[discimport_discgolf][download][url] = "https://github.com/discimport/discimport_discgolf.git"
 projects[discimport_discgolf][download][branch] = "7.x-1.x"
-projects[discimport_discgolf][download][revision] = "c17c6e9"
+projects[discimport_discgolf][download][revision] = "2109be40129696a6ccf375171e70dfcf6fd47385"
 
 projects[discimport_discount][type] = "module"
 projects[discimport_discount][download][type] = "git"
