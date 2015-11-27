@@ -31,7 +31,7 @@ projects[discimport_add_to_cart][type] = "module"
 projects[discimport_add_to_cart][download][type] = "git"
 projects[discimport_add_to_cart][download][url] = "https://github.com/discimport/discimport_add_to_cart.git"
 projects[discimport_add_to_cart][download][branch] = "7.x-1.x"
-projects[discimport_add_to_cart][download][revision] = "8648e65e8d3a30ef48172ab5691a1e0554ba9a04"
+projects[discimport_add_to_cart][download][revision] = "71d0e201054ae4309a1030d80db02e277434fe42"
 
 projects[discimport_stock][type] = "module"
 projects[discimport_stock][download][type] = "git"
@@ -163,6 +163,7 @@ projects[commerce_add_to_cart_extras][download][revision]= a4f6ea3
 projects[commerce_add_to_cart_extras][download][branch] = 7.x-1.x
 projects[commerce_add_to_cart_extras][patch][1985340] = http://drupal.org/files/issues/incorrect_form_action-1985340-7.patch
 projects[commerce_add_to_cart_extras][patch][2292023] = http://drupal.org/files/issues/commerce_add_to_cart_extras-hide_if_empty-2292023_1.patch
+projects[commerce_add_to_cart_extras][patch][1440944] = https://www.drupal.org/files/issues/commerce_add_to_cart_extras-validate_stock-1440944.patch
 
 projects[commerce_discount_product_category][subdir] = contrib
 projects[commerce_discount_product_category][version] = 1.2
