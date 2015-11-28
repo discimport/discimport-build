@@ -88,12 +88,11 @@ projects[l10n_update][subdir] = contrib
 projects[l10n_update][version] = 1.1
 
 projects[mailchimp][subdir] = contrib
-projects[mailchimp][version] = 2.12
+projects[mailchimp][version] = 3.6
 
-; This is included as apidocs.mailchimp.com was down at some point
-; Still think this should be addressed https://drupal.org/node/2169743
+; Mailchimp PHP Library
 libraries[mailchimp][download][type] = "get"
-libraries[mailchimp][download][url] = "https://github.com/lsolesen/mailchimp-api-class/archive/v.1.3.2.zip"
+libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.6.zip"
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
