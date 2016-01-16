@@ -1,15 +1,28 @@
+diff --git a/commerce_kickstart.info b/commerce_kickstart.info
+index a4143d0..15a0416 100644
+--- a/commerce_kickstart.info
++++ b/commerce_kickstart.info
+@@ -78,7 +78,6 @@ dependencies[] = entityreference
+ dependencies[] = views_megarow
+ dependencies[] = commerce_addressbook
+ dependencies[] = commerce_discount
+-dependencies[] = commerce_discount_date
+ dependencies[] = commerce_add_to_cart_confirmation
+ dependencies[] = commerce_message
+ dependencies[] = commerce_backoffice
 diff --git a/drupal-org.make b/drupal-org.make
-index b8d3472..cc0f95e 100644
+index 283304d..2e42a92 100644
 --- a/drupal-org.make
 +++ b/drupal-org.make
-@@ -35,7 +35,9 @@ projects[commerce_autosku][download][revision] = 32e86f4
+@@ -34,7 +34,10 @@ projects[commerce_autosku][download][type] = git
+ projects[commerce_autosku][download][revision] = 32e86f4
  projects[commerce_autosku][download][branch] = 7.x-1.x
- projects[commerce_migrate][version] = 1.1
- projects[commerce_migrate][patch][1931302] = https://www.drupal.org/files/commerce_products_source_migration-1931302-2.patch
--projects[commerce_discount][version] = 1.0-alpha6
+ projects[commerce_migrate][version] = 1.2
+-projects[commerce_discount][version] = 1.0-alpha7
++;projects[commerce_discount][version] = 1.0-alpha7
 +projects[commerce_discount][download][type] = git
 +projects[commerce_discount][download][branch] = 7.x-1.x
 +projects[commerce_discount][download][revision] = 185aa94
- projects[commerce_checkout_progress][version] = 1.3
+ projects[commerce_checkout_progress][version] = 1.4
  projects[commerce_extra_price_formatters][version] = 1.x-dev
  projects[commerce_extra_price_formatters][download][type] = git
