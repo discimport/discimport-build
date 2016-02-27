@@ -103,7 +103,7 @@ projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 3.0
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.7
+projects[metatag][version] = 1.13
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.15
