@@ -6,7 +6,6 @@ steps:
     makeFile: build-discimport.make
     database: discimport.sql.gz
     databaseGzipped: true
-    databaseUpdates: true
     clearCaches: true
   - name: Generate login link
     command: 'drush --root="/var/www/html" uli'
