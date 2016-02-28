@@ -8,8 +8,11 @@ steps:
     databaseGzipped: true
     databaseUpdates: true
     clearCaches: true
+  - name: Make directory for site
+    command: 'mkdir /var/www/html/sites/discimport.dk'
   - name: Fix permissions
-    command: 'chown -R www-data:www-data /var/www/html/sites'
+    command: 'chown -R www-data:www-data /var/www/html/sites/discimport.dk'
+    command: 'chmod 777 -R /var/www/html/sites/discimport.dk'
   - name: Generate login link
     command: 'drush --root="/var/www/html" uli'
   - name: Enable stage_file_proxy
