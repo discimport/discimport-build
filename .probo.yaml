@@ -12,7 +12,6 @@ steps:
     command: 'mkdir /var/www/html/sites/discimport.dk'
     command: 'mkdir /var/www/html/sites/discimport.dk/private'
     command: 'mkdir /var/www/html/sites/discimport.dk/private/temp'
-    command: 'mkdir /var/www/html/sites/discimport.dk/files'
   - name: Fix permissions
     command: 'chown -R www-data:www-data /var/www/html/sites/discimport.dk'
     command: 'chmod 777 -R /var/www/html/sites/discimport.dk'
