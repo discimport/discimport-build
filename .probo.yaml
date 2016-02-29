@@ -16,3 +16,5 @@ steps:
     command: 'drush --root="/var/www/html" uli'
   - name: Enable stage_file_proxy
     command: 'drush --root="/var/www/html" en stage_file_proxy -y; drush variable-set stage_file_proxy_origin "http://discimport.dk"'
+  - name: Disable certain modules
+    command: 'drush --root="/var/www/html" pm-disable googleanalytics"'
