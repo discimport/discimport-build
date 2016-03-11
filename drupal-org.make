@@ -64,12 +64,12 @@ projects[emogrifier][version] = 1.18
 projects[emogrifier][patch][2200267] = https://drupal.org/files/issues/issue-2200267_0.patch
 
 projects[field_group][subdir] = contrib
-projects[field_group][version] = 1.4
+projects[field_group][version] = 1.5
 
 projects[features_override][version] = 2.0-rc2
 projects[features_override][subdir] = contrib
 
-projects[honeypot][version] = 1.21
+projects[honeypot][version] = 1.22
 projects[honeypot][subdir] = contrib
 
 projects[file_entity][subdir] = contrib
@@ -103,7 +103,7 @@ projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 3.0
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.7
+projects[metatag][version] = 1.13
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.15
@@ -142,10 +142,10 @@ projects[wysiwyg][download][revision] = ee64524b3edb2aa21098a2309b0736e292010247
 projects[wysiwyg][download][branch] = 7.x-2.x
 
 projects[views_date_format_sql][subdir] = contrib
-projects[views_date_format_sql][version] = 3.1
+projects[views_date_format_sql][version] = 3.3
 
 projects[xautoload][subdir] = contrib
-projects[xautoload][version] = 5.5
+projects[xautoload][version] = 5.6
 
 ; Drupal Commerce and Commerce contribs ========================================
 
@@ -178,7 +178,7 @@ projects[commerce_bank_transfer][version] = 1.0-alpha3
 projects[commerce_bank_transfer][patch][1788790] = http://drupal.org/files/issue-1788790.patch
 
 projects[commerce_cart_expiration][subdir] = contrib
-projects[commerce_cart_expiration][version] = 1.2
+projects[commerce_cart_expiration][version] = 1.3
 
 projects[commerce_coupon][subdir] = contrib
 projects[commerce_coupon][version] = 2.0-rc2
