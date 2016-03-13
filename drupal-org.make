@@ -226,6 +226,13 @@ projects[quickpay_payment][download][url] = "https://github.com/lsolesen/quickpa
 projects[quickpay_payment][download][branch] = "7.x-1.x"
 projects[quickpay_payment][download][revision] = "67063e2"
 
+; Original QuickPay module now supports v10
+projects[quickpay][type] = "module"
+projects[quickpay][download][type] = "git"
+projects[quickpay][download][url] = "https://github.com/xendk/quickpay.git"
+projects[quickpay][download][branch] = "v10-update"
+projects[quickpay][download][revision] = "30e68b6ce0edaa68738e94f64c0730e8cc32279d"
+
 projects[commerce_gc][subdir] = contrib
 projects[commerce_gc][version] = 1.0-rc1
 projects[commerce_gc][patch][2307721] = https://www.drupal.org/files/issues/commerce_gc-checkout-pane.patch
