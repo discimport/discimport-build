@@ -231,7 +231,7 @@ projects[quickpay][type] = "module"
 projects[quickpay][download][type] = "git"
 projects[quickpay][download][url] = "https://github.com/xendk/quickpay.git"
 projects[quickpay][download][branch] = "v10-update"
-projects[quickpay][download][revision] = "30e68b6ce0edaa68738e94f64c0730e8cc32279d"
+projects[quickpay][download][revision] = "25cf707d93fa69707d50e46428a6f3fb7c1ab3ae"
 
 projects[commerce_gc][subdir] = contrib
 projects[commerce_gc][version] = 1.0-rc1
