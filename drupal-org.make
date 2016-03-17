@@ -219,19 +219,13 @@ projects[pakkelabels][download][type] = git
 projects[pakkelabels][download][revision] = f4c3ec4
 projects[pakkelabels][download][branch] = 7.x-1.x
 
-; New Quickpay v10 payment platform.
-projects[quickpay_payment][type] = "module"
-projects[quickpay_payment][download][type] = "git"
-projects[quickpay_payment][download][url] = "https://github.com/lsolesen/quickpay_payment.git"
-projects[quickpay_payment][download][branch] = "7.x-1.x"
-projects[quickpay_payment][download][revision] = "67063e2"
-
 ; Original QuickPay module now supports v10
+projects[quickpay][subdir] = "contrib"
 projects[quickpay][type] = "module"
 projects[quickpay][download][type] = "git"
 projects[quickpay][download][url] = "https://github.com/xendk/quickpay.git"
 projects[quickpay][download][branch] = "v10-update"
-projects[quickpay][download][revision] = "25cf707d93fa69707d50e46428a6f3fb7c1ab3ae"
+projects[quickpay][download][revision] = "d6bfc5b11eabffdf8376bb972bd7285687c9d65b"
 
 projects[commerce_gc][subdir] = contrib
 projects[commerce_gc][version] = 1.0-rc1
