@@ -3,11 +3,15 @@
 
 Instructions on how to build the site from Drupal 7.
 
+Development
+-----------
+
+Both [Travis CI](https://travis-ci.org/discimport/discimport-build) and [Probo CI](https://app.probo.ci/#/dashboard/project/de234673-b901-4009-9857-4cd47f21d20c) has been integrated. That means that for each commit all tests are run and a development site is created, where changes can be verified. Therefore, please do not commit directly to the main branch, but create pull requests, so everything can be verified before going into the main branch. When the branch is good to go, please clean up the commits also before merging into the main branch.
+
 Requirements
 ------------
 
-* [drush](http://drupal.org/project/drush) 
-* [drush_make](http://drupal.org/project/drush_make)
+* [drush](http://drupal.org/project/drush)
 
 Manually build platform
 -----------------------
