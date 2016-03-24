@@ -40,7 +40,7 @@ install:
   
   # Build the current branch
   - cd drupal
-  - drush make --yes profiles/discimport-build/build-discimport.make --prepare-install
+  - drush make --yes profiles/discimport-build/build-discimport-dev.make --prepare-install
   - drush dl diff
   - cd ../
 
