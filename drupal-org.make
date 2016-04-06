@@ -79,7 +79,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 2.1
 
 projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][version] = 3.0-beta2
+projects[google_analytics_reports][version] = 3.0
 
 projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
@@ -115,7 +115,7 @@ projects[redirect][subdir] = contrib
 projects[redirect][version] = 1.0-rc3
 
 projects[scheduler][subdir] = contrib
-projects[scheduler][version] = 1.3
+projects[scheduler][version] = 1.4
 
 projects[site_verify][subdir] = contrib
 projects[site_verify][version] = 1.1
@@ -211,7 +211,7 @@ projects[commerce_reports][subdir] = contrib
 projects[commerce_reports][version] = 4.0-beta3
 
 projects[commerce_stock][subdir] = contrib
-projects[commerce_stock][version] = 2.2
+projects[commerce_stock][version] = 2.3
 
 projects[pakkelabels][subdir] = contrib
 projects[pakkelabels][version] = 1.x-dev
@@ -220,11 +220,7 @@ projects[pakkelabels][download][revision] = 5154262
 projects[pakkelabels][download][branch] = 7.x-1.x
 
 projects[quickpay][subdir] = contrib
-projects[quickpay][type] = module
-projects[quickpay][version] = 2.x-dev
-projects[quickpay][download][type] = git
-projects[quickpay][download][branch] = 7.x-2.x
-projects[quickpay][download][revision] = c28a817
+projects[quickpay][version] = 2.0
 
 projects[commerce_gc][subdir] = contrib
 projects[commerce_gc][version] = 1.0-rc1
