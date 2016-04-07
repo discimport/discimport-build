@@ -3,7 +3,7 @@
 : ${DRUSH:=drush}
 : ${DRUSH_ARGS:=}
 
-FEATURES="discimport_discs discimport_discgolf discimport_discount discimport_add_to_cart discimport_stock"
+FEATURES="discimport_add_to_cart discimport_discgolf discimport_discs discimport_discount discimport_roles discimport_stock"
 
 ${DRUSH} ${DRUSH_ARGS} en -y diff
 
