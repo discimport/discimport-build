@@ -11,13 +11,13 @@ index a4143d0..15a0416 100644
  dependencies[] = commerce_message
  dependencies[] = commerce_backoffice
 diff --git a/drupal-org.make b/drupal-org.make
-index 283304d..2e42a92 100644
+index 1ff31d8..1d93f62 100644
 --- a/drupal-org.make
 +++ b/drupal-org.make
-@@ -34,7 +34,10 @@ projects[commerce_autosku][download][type] = git
- projects[commerce_autosku][download][revision] = 32e86f4
+@@ -35,7 +35,10 @@ projects[commerce_autosku][download][revision] = 32e86f4
  projects[commerce_autosku][download][branch] = 7.x-1.x
  projects[commerce_migrate][version] = 1.2
+ projects[commerce_migrate][patch][2701333] = https://www.drupal.org/files/issues/reference_fields_should-2701333-3.patch
 -projects[commerce_discount][version] = 1.0-alpha7
 +;projects[commerce_discount][version] = 1.0-alpha7
 +projects[commerce_discount][download][type] = git
