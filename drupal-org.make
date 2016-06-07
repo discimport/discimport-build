@@ -72,9 +72,6 @@ projects[emogrifier][patch][2200267] = https://drupal.org/files/issues/issue-220
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.5
 
-projects[features_override][version] = 2.0-rc2
-projects[features_override][subdir] = contrib
-
 projects[honeypot][version] = 1.22
 projects[honeypot][subdir] = contrib
 
