@@ -13,7 +13,7 @@ projects[discimport_deploy][type] = "module"
 projects[discimport_deploy][download][type] = "git"
 projects[discimport_deploy][download][url] = "https://github.com/discimport/discimport_deploy.git"
 projects[discimport_deploy][download][branch] = "7.x-1.x"
-projects[discimport_deploy][download][revision] = "48be57b"
+projects[discimport_deploy][download][revision] = "ac9eaad"
 
 projects[discimport_discs][type] = "module"
 projects[discimport_discs][download][type] = "git"
