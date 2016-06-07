@@ -76,7 +76,7 @@ projects[honeypot][version] = 1.22
 projects[honeypot][subdir] = contrib
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.0-beta2
+projects[file_entity][version] = 2.0-beta3
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 2.2
@@ -100,7 +100,7 @@ libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.0-beta1
+projects[media][version] = 2.0-beta2
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 3.0
@@ -148,7 +148,7 @@ projects[views_date_format_sql][subdir] = contrib
 projects[views_date_format_sql][version] = 3.3
 
 projects[xautoload][subdir] = contrib
-projects[xautoload][version] = 5.6
+projects[xautoload][version] = 5.7
 
 ; Drupal Commerce and Commerce contribs ========================================
 
