@@ -13,7 +13,7 @@ projects[discimport_deploy][type] = "module"
 projects[discimport_deploy][download][type] = "git"
 projects[discimport_deploy][download][url] = "https://github.com/discimport/discimport_deploy.git"
 projects[discimport_deploy][download][branch] = "7.x-1.x"
-projects[discimport_deploy][download][revision] = "48be57b"
+projects[discimport_deploy][download][revision] = "ac9eaad"
 
 projects[discimport_discs][type] = "module"
 projects[discimport_discs][download][type] = "git"
@@ -72,14 +72,11 @@ projects[emogrifier][patch][2200267] = https://drupal.org/files/issues/issue-220
 projects[field_group][subdir] = contrib
 projects[field_group][version] = 1.5
 
-projects[features_override][version] = 2.0-rc2
-projects[features_override][subdir] = contrib
-
 projects[honeypot][version] = 1.22
 projects[honeypot][subdir] = contrib
 
 projects[file_entity][subdir] = contrib
-projects[file_entity][version] = 2.0-beta2
+projects[file_entity][version] = 2.0-beta3
 
 projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 2.2
@@ -103,7 +100,7 @@ libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
 projects[media][subdir] = contrib
-projects[media][version] = 2.0-beta1
+projects[media][version] = 2.0-beta2
 
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 3.0
@@ -151,7 +148,7 @@ projects[views_date_format_sql][subdir] = contrib
 projects[views_date_format_sql][version] = 3.3
 
 projects[xautoload][subdir] = contrib
-projects[xautoload][version] = 5.6
+projects[xautoload][version] = 5.7
 
 ; Drupal Commerce and Commerce contribs ========================================
 
