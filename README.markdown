@@ -6,8 +6,7 @@ Instructions on how to build the site from Drupal 7.
 Requirements
 ------------
 
-* [drush](http://drupal.org/project/drush) 
-* [drush_make](http://drupal.org/project/drush_make)
+* [drush](http://drupal.org/project/drush)
 
 Manually build platform
 -----------------------
@@ -23,7 +22,7 @@ Installation
 
 To make the Commerce Kickstart Platform ready with the extra Discimport.dk modules, run:
 
-    drush make discimport_dk.build --prepare-install ~/workspace/discimport_dk_build
+    drush make build-discimport.make --prepare-install ~/workspace/discimport_dk_build
 
 Then check permissions
     
