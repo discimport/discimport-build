@@ -82,7 +82,7 @@ projects[google_analytics][subdir] = contrib
 projects[google_analytics][version] = 2.2
 
 projects[google_analytics_reports][subdir] = contrib
-projects[google_analytics_reports][version] = 3.0
+projects[google_analytics_reports][version] = 3.1
 
 projects[l10n_client][subdir] = contrib
 projects[l10n_client][version] = 1.3
@@ -106,7 +106,7 @@ projects[media_youtube][subdir] = contrib
 projects[media_youtube][version] = 3.0
 
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.16
+projects[metatag][version] = 1.17
 
 projects[mollom][subdir] = contrib
 projects[mollom][version] = 2.15
