@@ -7,7 +7,11 @@ defaults[projects][subdir] = contrib
 
 projects[commerce_kickstart][type] = profile
 projects[commerce_kickstart][subdir] = ""
-projects[commerce_kickstart][version] = 2.39
+projects[commerce_kickstart][version] = 2.x-dev
+projects[commerce_kickstart][download][type] = git
+projects[commerce_kickstart][download][url] = https://github.com/commerceguys/commerce_kickstart.git
+projects[commerce_kickstart][download][revision] = 33fabc0
+projects[commerce_kickstart][download][branch] = 7.x-2.x
 
 ; Custom modules
 
