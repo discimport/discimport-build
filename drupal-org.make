@@ -84,7 +84,7 @@ projects[honeypot][version] = 1.22
 
 projects[file_entity][version] = 2.0-beta3
 
-projects[google_analytics][version] = 2.2
+projects[google_analytics][version] = 2.3
 
 projects[google_analytics_reports][version] = 3.1
 
@@ -100,11 +100,11 @@ libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
-projects[media][version] = 2.0-beta2
+projects[media][version] = 2.0-rc3
 
 projects[media_youtube][version] = 3.0
 
-projects[metatag][version] = 1.17
+projects[metatag][version] = 1.20
 
 projects[mollom][version] = 2.15
 
@@ -112,7 +112,7 @@ projects[optimizely][version] = 2.18
 
 projects[redirect][version] = 1.0-rc3
 
-projects[scheduler][version] = 1.4
+projects[scheduler][version] = 1.5
 
 projects[site_verify][version] = 1.1
 
@@ -161,7 +161,7 @@ projects[commerce_notification][download][revision] = 333801f
 projects[commerce_bank_transfer][version] = 1.0-alpha3
 projects[commerce_bank_transfer][patch][1788790] = http://drupal.org/files/issue-1788790.patch
 
-projects[commerce_cart_expiration][version] = 1.3
+projects[commerce_cart_expiration][version] = 1.4
 
 projects[commerce_coupon][version] = 2.0-rc2
 
