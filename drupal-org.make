@@ -7,7 +7,7 @@ defaults[projects][subdir] = contrib
 
 projects[commerce_kickstart][type] = profile
 projects[commerce_kickstart][subdir] = ""
-projects[commerce_kickstart][version] = 2.40
+projects[commerce_kickstart][version] = 2.42
 
 ; Custom modules
 
