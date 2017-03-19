@@ -88,6 +88,8 @@ projects[google_analytics][version] = 2.3
 
 projects[google_analytics_reports][version] = 3.1
 
+projects[google_tag][version] = 1.2-rc3
+
 projects[l10n_client][version] = 1.3
 
 projects[l10n_update][version] = 1.1
@@ -165,6 +167,8 @@ projects[commerce_coupon][version] = 2.0-rc2
 projects[commerce_fieldgroup_panes][version] = 1.1
 
 projects[commerce_google_analytics][version] = 1.1
+
+projects[commerce_google_tag_manager][version] = 2.0-rc3
 
 projects[commerce_mailchimp][version] = 1.0
 
