@@ -7,7 +7,7 @@ defaults[projects][subdir] = contrib
 
 projects[commerce_kickstart][type] = profile
 projects[commerce_kickstart][subdir] = ""
-projects[commerce_kickstart][version] = 2.40
+projects[commerce_kickstart][version] = 2.45
 
 ; Custom modules
 
@@ -90,6 +90,8 @@ projects[google_analytics][version] = 2.3
 
 projects[google_analytics_reports][version] = 3.1
 
+projects[google_tag][version] = 1.2-rc3
+
 projects[l10n_client][version] = 1.3
 
 projects[l10n_update][version] = 1.1
@@ -102,7 +104,7 @@ libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
-projects[media][version] = 2.0-rc3
+projects[media][version] = 2.0-rc4
 
 projects[media_youtube][version] = 3.0
 
@@ -129,10 +131,7 @@ projects[transliteration][version] = 3.2
 
 projects[userreport][version] = 1.0-alpha4
 
-projects[wysiwyg][version] = 2.x-dev
-projects[wysiwyg][download][type] = git
-projects[wysiwyg][download][revision] = ee64524b3edb2aa21098a2309b0736e292010247
-projects[wysiwyg][download][branch] = 7.x-2.x
+projects[wysiwyg][version] = 2.3
 
 projects[views_date_format_sql][version] = 3.3
 
@@ -167,9 +166,11 @@ projects[commerce_cart_expiration][version] = 1.4
 
 projects[commerce_coupon][version] = 2.0-rc2
 
-projects[commerce_fieldgroup_panes][version] = 1.0
+projects[commerce_fieldgroup_panes][version] = 1.1
 
 projects[commerce_google_analytics][version] = 1.1
+
+projects[commerce_google_tag_manager][version] = 2.0-rc3
 
 projects[commerce_mailchimp][version] = 1.0
 
