@@ -82,6 +82,8 @@ projects[field_group][version] = 1.5
 
 projects[honeypot][version] = 1.22
 
+projects[facebook_tracking_pixel][version] = 1.0
+
 projects[file_entity][version] = 2.0-beta3
 
 projects[google_analytics][version] = 2.3
