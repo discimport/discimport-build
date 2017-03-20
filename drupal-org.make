@@ -102,11 +102,11 @@ libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
-projects[media][version] = 2.0-rc4
+projects[media][version] = 2.0-rc12
 
 projects[media_youtube][version] = 3.0
 
-projects[metatag][version] = 1.20
+projects[metatag][version] = 1.21
 
 projects[mollom][version] = 2.15
 
@@ -193,7 +193,7 @@ projects[pakkelabels][download][type] = git
 projects[pakkelabels][download][revision] = 5154262
 projects[pakkelabels][download][branch] = 7.x-1.x
 
-projects[quickpay][version] = 2.0
+projects[quickpay][version] = 2.1
 
 projects[commerce_gc][version] = 1.0-rc1
 projects[commerce_gc][patch][2307721] = https://www.drupal.org/files/issues/commerce_gc-checkout-pane.patch
